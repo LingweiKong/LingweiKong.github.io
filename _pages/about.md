@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lingwei, KONG (Mark), EngD. in Computing from The Hong Kong Polytechnic University, Senior Algorithm Researcher at Ping An Technology. He is member of the Big Data Committee of the Chinese Computer Federation (CCF), and executive member of the Digital Finance Committee, Data Security and Web 3.0 Committee of the Shenzhen City Computer Federation (SZCCF). He holds **Level II Certification of FinTech Professional for the Greater Bay Area (Artificial Intelligence)**. He has long been engaged in the innovative R&D and real-world application of **artificial intelligence, big data, privacy-preserving computing(PPC), and trustworthy data space(TDS)** in financial industry. 
+Lingwei KONG (Mark), EngD candidate in Computing from The Hong Kong Polytechnic University, Senior Algorithm Researcher at Ping An Technology. He is member of the Big Data Committee of the Chinese Computer Federation (CCF), and executive member of the Digital Finance Committee, Data Security and Web 3.0 Committee of the Shenzhen City Computer Federation (SZCCF). He holds **Level II Certification of FinTech Professional for the Greater Bay Area (Artificial Intelligence)**. He has long been engaged in the innovative R&D and real-world application of **artificial intelligence, big data, privacy-preserving computing(PPC), and trustworthy data space(TDS)** in financial industry. 
 
-He has published 14 papers in domestic and international journals and filed over 50 patents. He has participated in several national and provincial key R&D projects, won multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include the Second Prize of the FinTech Development Award from the People’s Bank of China (PBC), the Second Prize of the “Data Elements ×” Competition in Guangdong Province by the National Data Bureau, Distinguished Award of the Chinese Computer Federation (CCF) Technological Progress, the Shenzhen Artificial Intelligence Technological Progress Award, and the Shenzhen City Computer Federation (SZCCF) Science and Technology Award.
+He has published 14 papers in domestic and international journals and filed over 50 patents. He has participated in several national and provincial key R&D projects, won multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include **the Second Prize of the FinTech Development Award from the People’s Bank of China (PBC)**, **National Data Bureau the Second Prize of the “Data Elements ×” Competition in Guangdong Province**, **Distinguished Award of the Chinese Computer Federation (CCF) Technological Progress**, the Shenzhen Artificial Intelligence Technological Progress Award, and the Shenzhen City Computer Federation (SZCCF) Science and Technology Award.
 
 
 
@@ -63,12 +63,17 @@ He has published 14 papers in domestic and international journals and filed over
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, Doctor of Engineering in Computing.
+  
+- *09.2017 - 11.2018*, University of Edinburgh, MSc Signal Processing and Communications. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *09.2017 - 11.2018*, Wuhan University of Technology, Bachelor of Communication Engineering. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
+
+# 💬 Experiences
+- *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
+
+- *05.2015 – 08.2015*, Kowloon Blueocean Technology Ltd., Software Develop Engineer (Intern).
+
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
