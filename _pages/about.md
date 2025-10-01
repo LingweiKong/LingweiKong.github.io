@@ -58,16 +58,58 @@ He has published 14 papers in domestic and international journals and filed over
 - [Research review of federated learning algorithms](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J], Jianzong Wang, **Lingwei Kong**, Zhangcheng Huang, etc. **Big data research, 2020**. (Communication Author)
 - [Research review of federated learning algorithms]() [J], Jianzong Wang, **Lingwei Kong**, Zhangcheng Huang, etc. **Big data research, 2020**. (Communication Author)
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Social Honors and Awards
+- The 2nd China Digital Finance Conference (CCF) Outstanding Case Study in Digital Finance Exploration and Innovation, 2025 **(Ranked 6th)**
+- The 6th Xinzhi Award for Digital Transformation of Financial Institutions - Outstanding Digital Risk Control Case, 2025 **(Ranked 7th)**
+- Shanghai Talents in Key Industries Special Award, 2024 **(Personal Award)**
+- National Data Administration "Data ×" Competition Guangdong, **Second Prize**, 2024 **(Ranked 5th)**
+- The 3rd PAZHOU Algorithm Competition South China Division Data Security Track, **Second Prize**, 2024 **(Ranked 3th)**
+- The 5th Xinzhi Award for Digital Transformation of Financial Institutions - Outstanding Digital Risk Control Case, 2024 **(Ranked 4th)**
+- People's Back of China(PBC) Fintech Development Award, **Third Prize**, 2023 **(Ranked 6th)**
+- Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award, 2023 **(Ranked 9th)**
+- Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2023 **(Ranked 4th)**
+- CAICT Galaxy Case Study, Excellent Case Study of Data Element Circulation, 2023 **(Team Award)**
+- People's Back of China(PBC) Fintech Development Award, **Second Prize**, 2022 **(Ranked 6th)**
+- Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award, 2022 **(Ranked 6th)**
+- Shenzhen-Hong Kong-Macao Financial Technician **Level 2** (Artificial Intelligence), 2022 **(Personal Award)**
+- Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2021 **(Ranked 3rd)**
+- NAACL The 2nd International Machine Simultaneous Interpretation Competition Chinese Speech and English Text Track **First Prize**, 2021 **(Ranked 2nd)**
+- China Computer Federation (CCF) Science and Technology Progress **Excellence Award**, 2020 **(Ranked 4th)**
+- Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2020 **(Ranked 4rd)**
+- Selected for the Ministry of Industry and Information Technology’s Cybersecurity Technology Application Pilot Demonstration, 2020 **(Team Award)**
+- BAI Global Innovation Award in Regulatory Technology Innovation, 2020 **(Team Award)**
+- IDC Digital Transformation Award in Financial Category, 2020 **(Team Award)**
+- WMT Machine Translation Competition English to Chinese Track, **First Prize**, 2019 **(Team Award)**
+- MIT Graph Challenge Sparse Deep Neural Network Track, **Finalists**, 2019 **(Team Award)**
+
+# 🎖 Company Honors and Awards
+- **Top Ten** Outstanding Team of Ping An Technology, 2023 (Company)
+
+- **Top Ten** Outstanding Projects of Ping An Group, 2023 (Group Technology Development Committee)
+
+- The 1st AIGC Innovation Competition of Ping An Group, **Third Prize**, 2023 (Group Technology Development Committee)
+
+- The 7th Group CTF Competition, **Finalist**, 2023 (Group Information Security Department)
+
+- **Top Ten** Outstanding Team in business contribution of Ping An Group, 2022 (Group Technology Development Committee)
+
+- The 6th Group CTF Competition, **Finalist**, 2022 (Group Information Security Department)
+
+- **Major Project Award** of Ping An Technology, 2020 (Company)
+
+- The 4th Group CTF Competition, **Second Prize**, 2020 (Group Information Security Department)
+
+- The 5th Group Micro-innovation Hackthon, **Firth Prize \& Best Popularity Award**, 2019 (Group Technology Development Committee)
+
+- The 4th Group Micro-innovation Hackthon, **Second Prize**, 2018 (Group Technology Development Committee)
+
 
 # 📖 Educations
 - *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, Doctor of Engineering in Computing.
   
 - *09.2017 - 11.2018*, University of Edinburgh, MSc Signal Processing and Communications. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
 
-- *09.2017 - 11.2018*, Wuhan University of Technology, Bachelor of Communication Engineering. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
+- *09.2013 - 06.2017*, Wuhan University of Technology, Bachelor of Communication Engineering. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
 
 # 💬 Experiences
 - *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
