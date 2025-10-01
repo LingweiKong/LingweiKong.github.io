@@ -73,7 +73,3 @@ He has published 14 papers in domestic and international journals and filed over
 - *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
 
 - *05.2015 – 08.2015*, Kowloon Blueocean Technology Ltd., Software Develop Engineer (Intern).
-
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
