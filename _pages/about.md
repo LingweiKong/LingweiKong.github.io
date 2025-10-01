@@ -151,16 +151,16 @@ He has published 14 papers in domestic and international journals and filed over
 - **No.2021B0101400003** Guangdong Key Research and Development Program, New Generation of Artificial Intelligence Project, **Member**
 
 # 📖 Educations
-- *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, **Doctor of Engineering in Computing**.
+- ***09.2024 - 06.2027 (Expected)***, The Hong Kong Polytechnic University, **Doctor of Engineering in Computing**.
   
-- *09.2017 - 11.2018*, University of Edinburgh, **MSc Signal Processing and Communications**. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
+- ***09.2017 - 11.2018***, University of Edinburgh, **MSc Signal Processing and Communications**. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
 
-- *09.2013 - 06.2017*, Wuhan University of Technology, **Bachelor of Communication Engineering**. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
+- ***09.2013 - 06.2017***, Wuhan University of Technology, **Bachelor of Communication Engineering**. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
 
 # 📖 Experiences
-- *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
+- ***09.2018 – Present***, Ping An Technology (Shenzhen) Co., Ltd. **Senior Algorithm Researcher**.
 
-- *05.2015 – 08.2015*, Kowloon Blueocean Technology Ltd., Software Develop Engineer (Intern).
+- ***05.2015 – 08.2015***, Kowloon Blueocean Technology Ltd. **Software Develop Engineer (Intern)**.
 
 # 💬 Public Services
 - **Shenzhen Computer Federation(SZCCF)** Executive member of Digital Finance Committee, Data security and WEB3.0 Committee
