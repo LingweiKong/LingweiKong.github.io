@@ -137,6 +137,18 @@ He has published 14 papers in domestic and international journals and filed over
 
 - The 4th Group Micro-innovation Hackthon, **Second Prize**, 2018 (Group Technology Development Committee)
 
+# 💬 Key Research Programs
+- **No.2024YFB4504300** National Key Research and Development Program, Young Scientists Project, **Key Member**
+
+- **No.2018YFB1003500** National Key Research and Development Program, Cloud Computing and Big Data Project, **Key Member**
+
+- **No.2018YFB0204403** National Key Research and Development Program, High Performance Computing Project, **Member**
+
+- **No.2017YFB1401202** National Key Research and Development Program, Research and development of common key technologies for modern service industry and application demonstration, **Member**
+
+- **No.20240110140418001** Shenzhen-Hong Kong Joint Funding Project, Category A, **Key Member**
+
+- **No.2021B0101400003** Guangdong Key Research and Development Program, New Generation of Artificial Intelligence Project, **Member**
 
 # 📖 Educations
 - *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, **Doctor of Engineering in Computing**.
@@ -149,19 +161,6 @@ He has published 14 papers in domestic and international journals and filed over
 - *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
 
 - *05.2015 – 08.2015*, Kowloon Blueocean Technology Ltd., Software Develop Engineer (Intern).
-
-# 💬 Key Research Programs
-- **No.2024YFB4504300** National Key Research and Development Program, Young Scientists Project **Key Member**
-
-- **No.2018YFB1003500** National Key Research and Development Program, Cloud Computing and Big Data Project **Key Member**
-
-- **No.2018YFB0204403** National Key Research and Development Program, High Performance Computing Project **Member**
-
-- **No.2017YFB1401202** National Key Research and Development Program, Research and development of common key technologies for modern service industry and application demonstration **Member**
-
-- **No.20240110140418001** Shenzhen-Hong Kong Joint Funding Project, Category A **Key Member**
-
-- **No.2021B0101400003** Guangdong Key Research and Development Program, New Generation of Artificial Intelligence Project **Member**
 
 # 💬 Public Services
 - **Shenzhen Computer Federation(SZCCF)** Executive member of Digital Finance Committee, Data security and WEB3.0 Committee
