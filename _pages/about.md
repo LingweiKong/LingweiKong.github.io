@@ -58,28 +58,62 @@ He has published 14 papers in domestic and international journals and filed over
 - [Research review of federated learning algorithms](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J], Jianzong Wang, **Lingwei Kong**, Zhangcheng Huang, etc. **Big data research, 2020**. (Communication Author)
 - [Research review of federated learning algorithms]() [J], Jianzong Wang, **Lingwei Kong**, Zhangcheng Huang, etc. **Big data research, 2020**. (Communication Author)
 
+# 📝 Patents 
+- **ZL20210735132.9** Machine translation method based on omnidirectional attention mechanism.
+
+- **ZL202011118337.4** Case search method, device and readable storage medium based on interactive feedback.
+
+- **ZL201910884713.1** Method, device, equipment and storage medium for text encoding based on neural network.
+
+- **ZL201910879339.6** Adversarial defense method and related device for image classification network
+
+- **ZL201910871381.3 & 40018226B(HK)** Data anomaly analysis method, system and computer equipment based on graph analysis.
+
+- **ZL201910429520.7** Authenticity verification method, device, computer equipment and storage medium of botanical crude drugs.
+
 # 🎖 Social Honors and Awards
 - The 2nd China Digital Finance Conference (CCF) Outstanding Case Study in Digital Finance Exploration and Innovation, 2025 **(Ranked 6th)**
+
 - The 6th Xinzhi Award for Digital Transformation of Financial Institutions - Outstanding Digital Risk Control Case, 2025 **(Ranked 7th)**
+
 - Shanghai Talents in Key Industries Special Award, 2024 **(Personal Award)**
+
 - National Data Administration "Data ×" Competition Guangdong, **Second Prize**, 2024 **(Ranked 5th)**
+
 - The 3rd PAZHOU Algorithm Competition South China Division Data Security Track, **Second Prize**, 2024 **(Ranked 3th)**
+
 - The 5th Xinzhi Award for Digital Transformation of Financial Institutions - Outstanding Digital Risk Control Case, 2024 **(Ranked 4th)**
+
 - People's Back of China(PBC) Fintech Development Award, **Third Prize**, 2023 **(Ranked 6th)**
+
 - Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award, 2023 **(Ranked 9th)**
+
 - Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2023 **(Ranked 4th)**
+
 - CAICT Galaxy Case Study, Excellent Case Study of Data Element Circulation, 2023 **(Team Award)**
+
 - People's Back of China(PBC) Fintech Development Award, **Second Prize**, 2022 **(Ranked 6th)**
+
 - Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award, 2022 **(Ranked 6th)**
+
 - Shenzhen-Hong Kong-Macao Financial Technician **Level 2** (Artificial Intelligence), 2022 **(Personal Award)**
+
 - Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2021 **(Ranked 3rd)**
+
 - NAACL The 2nd International Machine Simultaneous Interpretation Competition Chinese Speech and English Text Track **First Prize**, 2021 **(Ranked 2nd)**
+
 - China Computer Federation (CCF) Science and Technology Progress **Excellence Award**, 2020 **(Ranked 4th)**
+
 - Shenzhen Computer Federation(SZCCF) Science and Technology Progress Award, 2020 **(Ranked 4rd)**
+
 - Selected for the Ministry of Industry and Information Technology’s Cybersecurity Technology Application Pilot Demonstration, 2020 **(Team Award)**
+
 - BAI Global Innovation Award in Regulatory Technology Innovation, 2020 **(Team Award)**
+
 - IDC Digital Transformation Award in Financial Category, 2020 **(Team Award)**
+
 - WMT Machine Translation Competition English to Chinese Track, **First Prize**, 2019 **(Team Award)**
+
 - MIT Graph Challenge Sparse Deep Neural Network Track, **Finalists**, 2019 **(Team Award)**
 
 # 🎖 Company Honors and Awards
@@ -105,13 +139,38 @@ He has published 14 papers in domestic and international journals and filed over
 
 
 # 📖 Educations
-- *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, Doctor of Engineering in Computing.
+- *09.2024 - 06.2027 (Expected)*, The Hong Kong Polytechnic University, **Doctor of Engineering in Computing**.
   
-- *09.2017 - 11.2018*, University of Edinburgh, MSc Signal Processing and Communications. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
+- *09.2017 - 11.2018*, University of Edinburgh, **MSc Signal Processing and Communications**. Distinction in Thesis: Fast Kernel Methods in Machine Learning.
 
-- *09.2013 - 06.2017*, Wuhan University of Technology, Bachelor of Communication Engineering. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
+- *09.2013 - 06.2017*, Wuhan University of Technology, **Bachelor of Communication Engineering**. Outstanding Project of National University Students Innovation and Entrepreneurship Training Program.
 
-# 💬 Experiences
+# 📖 Experiences
 - *09.2018 – Present*, Ping An Technology (Shenzhen) Co., Ltd., Staff Algorithm Engineer.
 
 - *05.2015 – 08.2015*, Kowloon Blueocean Technology Ltd., Software Develop Engineer (Intern).
+
+# 💬 Key Research Programs
+- **No.2024YFB4504300** National Key Research and Development Program, Young Scientists Project **Key Member**
+
+- **No.2018YFB1003500** National Key Research and Development Program, Cloud Computing and Big Data Project **Key Member**
+
+- **No.2018YFB0204403** National Key Research and Development Program, High Performance Computing Project **Member**
+
+- **No.2017YFB1401202** National Key Research and Development Program, Research and development of common key technologies for modern service industry and application demonstration **Member**
+
+- **No.20240110140418001** Shenzhen-Hong Kong Joint Funding Project, Category A **Key Member**
+
+- **No.2021B0101400003** Guangdong Key Research and Development Program, New Generation of Artificial Intelligence Project **Member**
+
+# 💬 Public Services
+- **Shenzhen Computer Federation(SZCCF)** Executive member of Digital Finance Committee, Data security and WEB3.0 Committee
+
+- **China Computer Federation (CCF)** Member of Big Data Committee
+
+- **Chinese Association of Automation (CAA)** Member of Federated Data and Federated Intelligence Committee
+
+- **Beijing Fintech Industry Alliance (BFIA)** Member of Data Committee
+
+- **TPC Reviewer** for ISPA 2025
+
