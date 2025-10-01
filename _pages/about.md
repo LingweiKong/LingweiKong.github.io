@@ -17,9 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Lingwei, KONG (Mark), EngD. in Computering from The Hong Kong Polytechnic University, Senior Algorithm Researcher at Ping An Technology. He is member of the Big Data Committee of the Chinese Computer Federation (CCF), and executive member of the Digital Finance Committee, Data Security and Web 3.0 Committee of the Shenzhen City Computer Federation (SZCCF). He holds Level II Certification of FinTech Professional for the Greater Bay Area (Artificial Intelligence). He has long been engaged in the innovative R&D and real-world application of artificial intelligence, big data, privacy-protecting computing, and Trustworthy Data Space in the financial industry. 
+KONG has published 14 papers in domestic and international journals and filed over 50 patents. He has participated in several national and provincial key R&D projects, won multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include the Second Prize of the FinTech Development Award from the People’s Bank of China (PBC), the Second Prize of the “Data Elements ×” Competition in Guangdong Province by the National Data Bureau, Distinguished Award of the Chinese Computer Federation (CCF) Technological Progress, the Shenzhen Artificial Intelligence Technological Progress Award, and the Shenzhen City Computer Federation (SZCCF) Science and Technology Award.
 
 
 # 🔥 News
@@ -28,7 +27,6 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
