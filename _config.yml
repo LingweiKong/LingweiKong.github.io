@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lingwei KONG (Mark)"
-description              : "Senior Algorithm Researcher,     EngD Candidate, "
+title                    : "Lingwei KONG"
+description              : "EngD Candidate, Senior Algorithm Researcher"
 repository               : "LingweiKong/LingweiKong.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Y2nM_30EAAAAJ"
-  email            : "jsjyklw@outlook.com"
+  email            : 
   researchgate     : "https://www.researchgate.net/profile/Lingwei_Kong5/research"
   uri              :
   bitbucket        :
