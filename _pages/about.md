@@ -134,7 +134,7 @@ He has published 15 papers in top-tier conferences and journals, and applied ove
 
 - The 4th Group Micro-innovation Hackthon, **Second Prize**, 2018 (Group Technology Development Committee)
 
-# 📖 Key Research Programs
+# 📖 Research Programs
 - **No.2024YFB4504300** National Key Research and Development Program, Young Scientists Project, **Key Member**
 
 - **No.2018YFB1003500** National Key Research and Development Program, Cloud Computing and Big Data Project, **Key Member**
