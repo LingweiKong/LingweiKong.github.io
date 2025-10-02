@@ -3,20 +3,26 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
-
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#-Publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Patents"
+    url: "/#-Patents"
+
+  - title: "Social Honors"
+    url: "/#-Social Honors"
+
+  - title: "Company Awards"
+    url: "/#-Company Awards"
+
+  - title: "Research Programs"
+    url: "/#-Research Programs"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#-Educations"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Work Experiences"
+    url: "/#-Work Experiences"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Public Services"
+    url: "/#-Public Services"
