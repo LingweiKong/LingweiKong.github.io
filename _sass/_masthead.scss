@@ -2,11 +2,15 @@
    MASTHEAD
    ========================================================================== */
 
+/* 顶层导航栏：浅灰渐变 + 发丝线/投影，与纯白正文区域形成层次差异
+   （业界常见的 "浮起式" 顶栏处理：白→浅灰渐变、细分割线、极轻投影） */
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
-  border-bottom: 1px solid $border-color;
+  background-color: #f3f5f7; /* 渐变前的兜底色 */
+  background-image: linear-gradient(180deg, #fbfcfd 0%, #f0f3f5 100%);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 2px 8px -3px rgba(15, 23, 42, 0.08);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -16,7 +20,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    padding: 0.55em 0.8em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -31,6 +35,29 @@
       text-decoration: none;
     }
   }
+}
+
+/* 让 greedy 导航透明，露出上面的渐变背景 */
+.masthead .greedy-nav {
+  background: transparent;
+
+  a {
+    color: mix(#000, $masthead-link-color, 55%);
+  }
+
+  .visible-links a:hover {
+    color: mix(#000, $masthead-link-color, 72%);
+
+    &:before {
+      background-color: mix(#000, $masthead-link-color, 10%);
+    }
+  }
+}
+
+/* 顶部导航菜单文字加粗（中英文页通用字号） */
+.masthead .greedy-nav .visible-links > li > a {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .masthead__menu {
@@ -61,4 +88,127 @@
   }
 }
 
+/* 语言切换按钮：胶囊样式、在导航条中垂直居中 */
+.greedy-nav .visible-links li.masthead__lang-item {
+  padding-left: 0.9rem;
 
+  /* 胶囊自带悬停填充，去掉通用的底部下划线 */
+  a:before {
+    content: none;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.45em 1.15em;
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: mix(#000, $masthead-link-color, 45%);
+    font-size: 0.98em;
+    font-weight: 600;
+    line-height: 1.25;
+    transition: background-color 0.2s ease, color 0.2s ease,
+                border-color 0.2s ease;
+
+    &:hover {
+      background-color: mix(#000, $masthead-link-color, 12%);
+      border-color: transparent;
+      color: #fff;
+    }
+  }
+}
+
+/* 宽屏：导航按钮等宽铺满整行，通栏渐变导航条 */
+@include breakpoint($x-large) {
+  .masthead__inner-wrap {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .masthead__menu {
+    width: 100%;
+  }
+
+  /* 用 .masthead 前缀提高特异性，覆盖 _navigation.scss 中晚引入的
+     同名 .greedy-nav .visible-links{display:table} 规则，确保等宽 flex 生效 */
+  .masthead .greedy-nav {
+    display: flex;
+    align-items: stretch;
+    min-height: 3.75rem;
+  }
+
+  .masthead .greedy-nav .visible-links {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    align-items: stretch;
+
+    > li {
+      flex: 1 1 0%;
+      min-width: 0;
+      padding: 0;
+      white-space: normal;
+      text-align: center;
+
+      & + li {
+        border-left: 1px solid rgba(15, 23, 42, 0.07);
+      }
+
+      > a {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+        padding: 0.5em 0.4em;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.3;
+        transition: color 0.2s ease, background-color 0.2s ease;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.55);
+        }
+      }
+    }
+
+    /* 语言按钮格：与相邻格子同宽，胶囊用 auto 边距在整条高度内双向居中 */
+    > li.masthead__lang-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0;
+
+      > a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: auto;
+        padding: 0.45em 1.15em;
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        border-radius: 2em;
+        background-color: rgba(255, 255, 255, 0.6);
+        color: mix(#000, $masthead-link-color, 45%);
+        font-size: 0.98em;
+        font-weight: 600;
+        line-height: 1.25;
+
+        &:hover {
+          background-color: mix(#000, $masthead-link-color, 12%);
+          border-color: transparent;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* 英文页导航栏文字不加粗（衬线字体下更轻盈）；中文页保持原有加粗 */
+html[lang="en"] .masthead .greedy-nav .visible-links > li > a {
+  font-weight: 400;
+}

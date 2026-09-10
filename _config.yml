@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Lingwei KONG"
-description              : "EngD Candidate, Senior Algorithm Researcher"
+description              : "Doctor of Engineering in Computing, Technical Manager of AI & Big Data"
+description_zh           : "香港理工大学计算机工程博士 · 平安科技人工智能与大数据技术经理、算法工程专家"
 repository               : "LingweiKong/LingweiKong.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,9 +26,10 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : 
   location         : "Shenzhen, China"
+  location_zh       : "中国 · 深圳"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=Y2nM_30EAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=2nM_30EAAAAJ"
   email            : 
   researchgate     : "https://www.researchgate.net/profile/Lingwei_Kong5/research"
   uri              :

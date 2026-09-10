@@ -40,6 +40,10 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* 英文/数字 → Source Serif 4（自托管，@font-face 见 assets/css/source-serif-4.css，
+   由 _includes/head/custom.html 引入）；该字体不含 CJK 字形，中文等其余字符自动回退到
+   字体栈中的华文楷体(STKaiti/KaiTi) */
+
 .paper-box {
     display: flex;
     justify-content: left;

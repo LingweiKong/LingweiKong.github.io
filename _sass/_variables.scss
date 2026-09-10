@@ -10,15 +10,18 @@ $doc-font-size              : 14;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
-$indent-var                 : 0.5em;
+$indent-var                 : 0.75em; // 段落间距（下边距），原 0.5em，用户先放大一倍、现微调为 0.75em
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
+$serif                      : "Source Serif 4", Georgia, Times, serif;
+/* 全站字体：英文/数字走 Source Serif 4（自托管，见 assets/css/source-serif-4.css），
+   中文回退到华文楷体(STKaiti/KaiTi)；Source Serif 4 未加载时先回退西文衬线体，
+   避免英文落到中文字体自带的拉丁字形上 */
+$sans-serif                 : "Source Serif 4", Georgia, "Times New Roman", "STKaiti", "KaiTi", "Kaiti SC", "华文楷体", "楷体", serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$monospace                  : "Source Serif 4", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -33,7 +36,7 @@ $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
