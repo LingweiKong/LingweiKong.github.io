@@ -1,12 +1,9 @@
-# Lingwei KONG
-
-Personal academic homepage, published at [https://lingweikong.github.io](https://lingweikong.github.io).
-
-Built with [Jekyll](https://jekyllrb.com/) and hosted on **GitHub Pages**. The site presents Lingwei KONG's academic profile and career highlights, including:
+# Personal Academic Homepage
+Built with [Jekyll](https://jekyllrb.com/) and hosted on **GitHub Pages**. The site presents academic profile and career highlights, including:
 
 - Publications in top-tier conferences and journals
 - Patents
-- Social honors and company awards
+- Social honors and awards
 - Research programs
 - Education and work experiences
 - Public services

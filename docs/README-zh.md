@@ -1,12 +1,10 @@
-# Lingwei KONG 个人主页
+# 个人主页
 
-发布于 [https://lingweikong.github.io](https://lingweikong.github.io) 的个人学术主页源码。
-
-基于 [Jekyll](https://jekyllrb.com/) 构建，托管于 **GitHub Pages**，用于展示 Lingwei KONG 的学术资料与职业履历，主要板块包括：
+基于 [Jekyll](https://jekyllrb.com/) 构建，托管于 **GitHub Pages**，主要板块包括：
 
 - 顶级会议与期刊论文发表
 - 专利
-- 社会荣誉与公司奖项
+- 社会荣誉与奖项
 - 科研项目
 - 教育经历与工作经历
 - 公共服务

@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Lingwei KONG"
 description              : "Doctor of Engineering in Computing, Technical Manager of AI & Big Data"
-description_zh           : "香港理工大学计算机工程博士 · 平安科技人工智能与大数据技术经理、算法工程专家"
+description_zh           : "计算机工程博士 · 技术经理 算法工程专家"
 repository               : "LingweiKong/LingweiKong.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -39,18 +39,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/lingwei-kong-8bb092b9"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  dblp             :
   orcid            : "https://orcid.org/0000-0001-7492-2823"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
