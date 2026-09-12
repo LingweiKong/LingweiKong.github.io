@@ -199,17 +199,17 @@ He has published 18 papers in related fields at home and abroad, applied for mor
 
 # 🤝 Public Services
 
-6\. **Shenzhen Computer Federation (SZCCF)** Executive Member of the Digital Finance Committee and the Data Security and Web 3.0 Committee
+- **Shenzhen Computer Federation (SZCCF)** Executive Member of the Digital Finance Committee and the Data Security and Web 3.0 Committee
 
-5\. **China Computer Federation (CCF)** Member of the Big Data Committee
+- **China Computer Federation (CCF)** Member of the Big Data Committee
 
-4\. **Chinese Association of Automation (CAA)** Member of the Federated Data and Federated Intelligence Committee
+- **Chinese Association of Automation (CAA)** Member of the Federated Data and Federated Intelligence Committee
 
-3\. **Beijing FinTech Industry Alliance (BFIA)** Member of the Data Committee
+- **Beijing FinTech Industry Alliance (BFIA)** Member of the Data Committee
 
-2\. **University of Science and Technology of China** External Academic Supervisor for master's degree students
+- **University of Science and Technology of China** External Academic Supervisor for master's degree students
 
-1\. **TPC Reviewer** for ISPA 2025
+- **TPC Reviewer** for ISPA 2025
 
 # 🎓 Academic Backgrounds
 
