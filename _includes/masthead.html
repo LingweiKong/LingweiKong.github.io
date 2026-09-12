@@ -5,7 +5,6 @@
         <button class="hidden"><div class="navicon"></div></button>
         {% if page.lang == 'zh' %}{% assign nav_root = '/zh' %}{% else %}{% assign nav_root = '' %}{% endif %}
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ nav_root }}/#about-me" target="_self">{% if page.lang == 'zh' %}首页{% else %}Homepage{% endif %}</a></li>
           {% for link in site.data.navigation.main %}
             {% if page.lang == 'zh' %}{% assign link_url = link.url_zh | default: link.url %}{% assign link_title = link.title_zh | default: link.title %}{% else %}{% assign link_url = link.url %}{% assign link_title = link.title %}{% endif %}
             <li class="masthead__menu-item"><a href="{{ nav_root }}{{ link_url }}" target="_self">{{ link_title }}</a></li>

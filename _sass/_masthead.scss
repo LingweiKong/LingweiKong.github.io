@@ -70,22 +70,10 @@
   }
 }
 
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
-}
-
 .masthead__menu-item {
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
-  }
 }
 
 /* 语言切换按钮：胶囊样式、在导航条中垂直居中 */
