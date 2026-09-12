@@ -31,7 +31,7 @@ He has published 14 papers in related fields at home and abroad, applied for mor
 
 # 💼 Experiences
 
-- ***12.2024 – Present***, Ping An Technology (Shenzhen) Co., Ltd. **Technical Manager of the AI Center** (directly managing a team of 11 algorithm and product engineers), **Algorithm Engineering Expert**.
+- ***12.2024 – Present***, Ping An Technology (Shenzhen) Co., Ltd. **Technical Manager of the AI Center**, **Algorithm Engineering Expert**.
 
 - ***05.2019 – 11.2024***, Ping An Technology (Shenzhen) Co., Ltd. **Senior Algorithm Engineer** of the AI Center.
 
