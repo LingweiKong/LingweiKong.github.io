@@ -11,7 +11,9 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<!-- 附带构建时间戳作为版本参数：GitHub Pages 对静态资源有 10 分钟 CDN/浏览器缓存，
+     每次构建更换 URL 可确保样式更新后立即生效，无需访客手动强刷 -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 
 <meta http-equiv="cleartype" content="on">
 <head>
