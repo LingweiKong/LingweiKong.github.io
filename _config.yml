@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Lingwei KONG"
-description              : "Doctor of Engineering in Computing, Technical Manager of AI & Big Data"
-description_zh           : "计算机工程博士 · 技术经理 算法工程专家"
+description              : "Doctor of Engineering, Algorithm Lead & Principal Applied Scientist"
+description_zh           : "计算机工程博士 · 算法经理，算法工程专家"
 repository               : "LingweiKong/LingweiKong.github.io"
 google_scholar_stats_use_cdn : true
 

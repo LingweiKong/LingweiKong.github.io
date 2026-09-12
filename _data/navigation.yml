@@ -5,20 +5,15 @@ main:
     url: "/#about-me"
     url_zh: "/#about-me"
 
-  - title: "Academic Backgrounds"
-    title_zh: "教育经历"
-    url: "/#-academic-backgrounds"
-    url_zh: "/#-教育经历"
+  - title: "Research Papers"
+    title_zh: "科研论文"
+    url: "/#-research-papers"
+    url_zh: "/#-科研论文"
 
-  - title: "Experiences"
-    title_zh: "工作经历"
-    url: "/#-experiences"
-    url_zh: "/#-工作经历"
-
-  - title: "Selected Publications"
-    title_zh: "论文发表"
-    url: "/#-selected-publications"
-    url_zh: "/#-论文发表"
+  - title: "Survey Papers"
+    title_zh: "综述论文"
+    url: "/#-survey-papers"
+    url_zh: "/#-综述论文"
 
   - title: "Authorized Patents"
     title_zh: "授权专利"
@@ -45,10 +40,20 @@ main:
     url: "/#-standards--white-papers"
     url_zh: "/#-标准和白皮书"
 
-  - title: "Public Services & Skills"
+  - title: "Public Services"
     title_zh: "社会服务"
-    url: "/#-public-services--skills"
+    url: "/#-public-services"
     url_zh: "/#-社会服务"
+
+  - title: "Academic Backgrounds"
+    title_zh: "教育经历"
+    url: "/#-academic-backgrounds"
+    url_zh: "/#-教育经历"
+
+  - title: "Work Experiences"
+    title_zh: "工作经历"
+    url: "/#-work-experiences"
+    url_zh: "/#-工作经历"
 
   - title: "Research Interests"
     title_zh: "研究方向"

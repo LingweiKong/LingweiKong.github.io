@@ -97,7 +97,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+/* 正文链接配色：原为深海军蓝（$info-color #224b8d），在灰色调页面里偏重、跳脱，
+   改为柔和的钢蓝色，与 masthead/正文的灰阶更协调；$info-color 仅供按钮/notice 使用 */
+$link-color                 : #35678c;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;

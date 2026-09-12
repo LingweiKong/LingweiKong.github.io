@@ -111,3 +111,50 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ==========================================================================
+   正文链接的视觉呈现
+   1) 常态：柔和的钢蓝 + 极细的浅色下划线，保留可点击感但不再抢眼
+   2) 悬停/聚焦：文字与下划线一起加深，并出现淡色背景高亮
+   3) 站外链接：右上角一个小箭头，提示会跳转到外部网站
+   ========================================================================== */
+
+$link-underline-idle: rgba($link-color, 0.3);
+
+.page__content a {
+    color: $link-color;
+    text-decoration: underline;
+    text-decoration-color: $link-underline-idle;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+
+    &:hover,
+    &:focus {
+        color: $link-color-hover;
+        text-decoration-color: currentColor;
+        background-color: rgba($link-color, 0.08);
+        border-radius: 2px;
+    }
+}
+
+/* 站外链接标记：站内锚点、相对路径链接不受影响 */
+.page__content a[href^="http"]:not([href*="lingwei"])::after {
+    content: "\2197";
+    display: inline-block;
+    margin-left: 0.15em;
+    font-size: 0.7em;
+    line-height: 1;
+    vertical-align: 0.4em;
+    opacity: 0.45;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+}
+
+.page__content a[href^="http"]:not([href*="lingwei"]):hover::after,
+.page__content a[href^="http"]:not([href*="lingwei"]):focus::after {
+    opacity: 1;
+    -webkit-transform: translate(0.1em, -0.1em);
+    transform: translate(0.1em, -0.1em);
+}

@@ -274,3 +274,42 @@
     display: none;
   }
 }
+
+/* ==========================================================================
+   侧栏图标品牌配色
+   ========================================================================== */
+
+.author__urls,
+.author__urls_sm {
+
+  /* 所在地：定位图钉 */
+  i.fa-map-marker {
+    color: #f0c14b;
+  }
+
+  /* ResearchGate */
+  i.fa-researchgate {
+    color: #00ccbb;
+  }
+
+  /* LinkedIn */
+  i.fa-linkedin {
+    color: #0a66c2;
+  }
+
+  /* Google Scholar */
+  i.fa-graduation-cap {
+    color: #4285f4;
+  }
+
+  /* ORCID */
+  i.ai-orcid-square {
+    color: #a6ce39;
+  }
+
+  /* 悬停时图标略微加深，与文字下划线呼应 */
+  a:hover i,
+  a:focus i {
+    filter: brightness(0.85);
+  }
+}
