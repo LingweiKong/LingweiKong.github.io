@@ -14,6 +14,11 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  /* 灰阶抗锯齿 + 禁用合成加粗：让中文（尤其加粗）笔画边缘更干净，不糊 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis-weight: none;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

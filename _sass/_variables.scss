@@ -14,10 +14,10 @@ $indent-var                 : 0.75em; // 段落间距（下边距），原 0.5em
 
 /* system typefaces */
 $serif                      : "Source Serif 4", Georgia, Times, serif;
-/* 全站字体：英文/数字走 Source Serif 4（自托管，见 assets/css/source-serif-4.css），
-   中文回退到华文楷体(STKaiti/KaiTi)；Source Serif 4 未加载时先回退西文衬线体，
-   避免英文落到中文字体自带的拉丁字形上 */
-$sans-serif                 : "Source Serif 4", Georgia, "Times New Roman", "STKaiti", "KaiTi", "Kaiti SC", "华文楷体", "楷体", serif;
+/* 全站字体：英文/数字走 Source Serif 4（自托管，见 assets/css/source-serif-4.css）；
+   中文依次回退 楷体 → 苹方/冬青黑/黑体/微软雅黑（均带真实字重，
+   避免中文加粗落到宋体上、小字号糊成一团） */
+$sans-serif                 : "Source Serif 4", Georgia, "Times New Roman", "Kaiti SC", "STKaiti", "KaiTi", "楷体", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -64,6 +64,11 @@ $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
+/* 中文页面（/zh/，<html lang="zh">）的正文字色：比英文版深一档。
+   中文字形笔画密集、字面灰度高，配合灰阶抗锯齿后整体观感偏浅，
+   故由 #494e52 加深至 #33383d；仍属灰度色系（对比度约 11.8:1），
+   未使用纯黑（#000 / 对比度 21:1）以免字面发死、失去层次 */
+$text-color-zh              : #33383d;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
