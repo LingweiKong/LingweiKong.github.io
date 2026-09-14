@@ -7,21 +7,12 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
 <link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
 
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="{{ '/images/mstile-144x144.png?v=M44lzPylqQ' | relative_url }}">
-<meta name="msapplication-config" content="{{ '/images/browserconfig.xml?v=M44lzPylqQ' | relative_url }}">
-<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#f0f3f5">
+<meta name="theme-color" content="#f0f3f5">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+<!-- 原先此处从 cdnjs 加载 MathJax 2.7.4：两个页面都没有公式，
+     却每次访问都要额外 DNS + 请求 + 解析（且 CDN 在部分网络下不可达）。
+     如日后需要公式，再恢复这里的三个 <script> 即可。 -->
 
 <!-- end custom head snippets -->
