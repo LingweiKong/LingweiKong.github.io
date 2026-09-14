@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**KONG Lingwei (Mark)**, Doctor of Engineering in Computing at The Hong Kong Polytechnic University, **Algorithm Lead** and **Principal Applied Scientist** in AI Center at Ping An Technology, Key Talent in Shanghai's Strategic Industries, and a **Level-2 Shenzhen-Hong Kong-Macao FinTech Professional (Artificial Intelligence)**. He is currently a member of the Big Data Committee of the China Computer Federation (CCF), and an executive member of the Digital Finance Committee and the Data Security and Web 3.0 Committee of the Shenzhen Computer Federation (SZCCF). He has long been engaged in the innovation, R&D and large-scale industrial deployment of **artificial intelligence, big data, privacy-preserving computing, and trustworthy data space** in the financial industry.
+**KONG Lingwei (Mark)**, Doctor of Engineering in Computing at The Hong Kong Polytechnic University, **Algorithm Lead** and **Principal Applied Scientist** in AI Center at Ping An Technology, **Shanghai Key Talent Strategic Industries**, and **Level-2 Shenzhen-Hong Kong-Macao FinTech Professional (Artificial Intelligence)**. He is currently a member of the Big Data Committee of the China Computer Federation (CCF), executive member of the Digital Finance Committee and the Data Security and Web 3.0 Committee of the Shenzhen Computer Federation (SZCCF). He has long been engaged in the innovation, R&D and large-scale industrial deployment of **artificial intelligence, big data, privacy-preserving computing, and trustworthy data space** in the financial industry.
 
 He has published nearly 20 papers at top international conferences and journals in related fields, applied for more than 70 patents, participated in several national and provincial key R&D projects, won championships in multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include **the Second Prize of the FinTech Development Award of the People's Bank of China (PBC)**, **the Second Prize of the "Data Elements ×" Competition (Guangdong Division) of the National Data Administration**, **the CCF Science and Technology Progress Distinguished Award**, the **Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award**, and the **Shenzhen Computer Federation (SZCCF) Science and Technology Award**. He is also a co-supervisor for master's students at the University of Science and Technology of China.
 
@@ -83,55 +83,59 @@ He has published nearly 20 papers at top international conferences and journals 
 
 # 🏆 Selected Honors
 
-25\. **Shanghai Talents in Key Industries Special Award**, 2024-2025 **(Individual Honor)**
+27\. [The 7th Outstanding Case **Top 10 Award** for Digital Transformation of Financial Institutions](https://fintechinchina.com/viewpoints/9695), *Integrated Intelligent System for Auto Finance with Full-Chain Digital Collaboration*, 2026, **(Rank 8/10)**
 
-24\. National Data Administration "Data Elements ×" Competition, National Final, **Second Prize**, 2025 **(Team Member)**
+26\. [Shanghai Talents in Key Industries Special Award](https://www.shanghai.gov.cn/202608bmgfxwj/20260423/0d1faccd8c1f4b428160efac57b4826c.html), 2024-2025 **(Individual Honor)**
 
-23\. CAICT Galaxy Case, **Typical Case** of Data Elements Circulation, 2025 **(Team Honor, Lead Presenter)**
+25\. [National Data Administration "Data Elements ×" Competition, National Final](https://www.nda.gov.cn/sjj/zhuanti/ztsjysx/ds/1031/20251029161008281445226_pc.html), *Data Element-Driven Insurance Risk Control Service*, **Second Prize**, 2025 **(Team Member)**
 
-22\. The 2nd CCF China Digital Finance Conference, **Outstanding Case** in Digital Finance Exploration and Innovation, 2025 **(Ranked 6th, Lead Presenter)**
+24\. [CAICT Galaxy Case, **Typical Case** of Data Elements Circulation](https://hulianhutongshequ.cn/upload/tank/report/2026/202604/1/1be169031b7343119d8ebd6e53610538.pdf), *Vehicle Insurance Actuarial Pricing Platform for Trustworthy Data Elements Circulation*, 2025 **(Team Honor, Lead Presenter)**
 
-21\. The 6th Xinzhi Award for Digital Transformation of Financial Institutions, **Outstanding Digital Risk Control Case**, 2025 **(Ranked 7th)**
+23\. [The 2nd CCF China Digital Finance Conference, **Outstanding Case** in Digital Finance Exploration and Innovation](https://mp.weixin.qq.com/s/Uh5tM9x6141swlBEq_IhLQ), *Full-Chain Intelligent Innovation Exploration for Auto Finance Risk Control in the Era of Large Models*, 2025 **(Team Honor)**
 
-20\. National Data Administration "Data Elements ×" Competition, Guangdong Province, **Second Prize**, 2024 **(Ranked 5th)**
+22\. [The 6th Xinzhi Award for Digital Transformation of Financial Institutions, **Outstanding Digital Risk Control Case**](https://www.fintechinchina.com/viewpoints/8654), *Upgrading Practice of Digital Management in the Auto Finance Sector*, 2025, **(Rank 7/10)**
 
-19\. The 3rd PAZHOU Algorithm Competition, South China Division, Data Security Track, **Second Place**, 2024 **(Ranked 3rd, Lead Presenter)**
+21\. [National Data Administration "Data Elements ×" Competition, Guangdong Province](https://www.dutenews.com/n/ctmedia/15568591), *Vehicle Insurance Actuarial Pricing Platform for Trustworthy Data Elements Circulation*, **Second Prize**, 2024, **(Rank 5/5)**
 
-18\. The 5th Xinzhi Award for Digital Transformation of Financial Institutions, **Outstanding Digital Risk Control Case**, 2024 **(Ranked 4th)**
+20\. [The 3rd PAZHOU Algorithm Competition, South China Division, Data Security Track](https://www.aicompetition-pz.com/3rd/topic_detail/5), Team Beehive, **Second Place**, 2024, **(Rank 3/3, Lead Presenter)**
 
-17\. People's Bank of China (PBC) FinTech Development Award, **Third Prize**, 2023 **(Ranked 6th, Lead Presenter)**
+19\. [The 5th Xinzhi Award for Digital Transformation of Financial Institutions, **Top 10 Award**](https://www.sohu.com/a/790371411_100278905), *Privacy-Preserving Computing Solution for Trustworthy Data Elements Circulation*, 2024, **(Rank 4/4)**
 
-16\. Shenzhen Artificial Intelligence (SAAI) **Science and Technology Progress Award**, 2023 **(Ranked 9th)**
+18\. [The 5th Xinzhi Award for Digital Transformation of Financial Institutions, **Outstanding Digital Risk Control Case**](https://www.sohu.com/a/790371411_100278905), *Vehicle Insurance Actuarial Pricing Platform for Trustworthy Data Elements Circulation*, 2024, **(Rank 4/8)**
 
-15\. Shenzhen Computer Federation (SZCCF) **Science and Technology Award**, 2023 **(Ranked 4th, Lead Presenter)**
+17\. [People's Bank of China (PBC) FinTech Development Award](https://file.smejs.cn/file/group1/M00/00/44/rBIAAWcV9iCANlIIAAdtBePpfZs288.pdf), *Auto Finance Digital Intelligence Platform*, Third Prize, 2023, **(Rank 6/11, Lead Presenter)**
 
-14\. CAICT Galaxy Case, **Excellent Case** of Data Elements Circulation, 2023 **(Team Honor)**
+16\. [Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award](https://saai.net.cn/%e3%80%90%e9%80%9a%e7%9f%a5%e3%80%912023%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%b1%8a%e6%b7%b1%e5%9c%b3%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%a5%96%e5%a5%96%e5%8a%b1%e5%85%ac/), *Vehicle Insurance Actuarial Pricing Platform for Trustworthy Data Elements Circulation*, 2023, **(Rank 9/10)**
 
-13\. People's Bank of China (PBC) FinTech Development Award, **Second Prize**, 2022 **(Ranked 6th, Lead Presenter)**
+15\. [Shenzhen Computer Federation (SZCCF) Science and Technology Award](https://www.szccf.org.cn/?p=5306), *Next-Generation Privacy-Preserving Computing Platform for Trustworthy Data Elements Circulation*, 2023, **(Rank 4/9, Lead Presenter)**
 
-12\. Shenzhen Artificial Intelligence (SAAI) **Science and Technology Progress Award**, 2022 **(Ranked 6th)**
+14\. [CAICT Galaxy Case, **Excellent Case** of Data Elements Circulation](http://mp.weixin.qq.com/s?__biz=MzU0NzczNjAwMw==&mid=2247507065&idx=1&sn=c98656a37d67be34e116955abced9afd&chksm=fb4b4cd5cc3cc5c3a10cbb508a79183f864316aa6804571d1757d1e5a46446c326cce1ab43e2&mpshare=1&scene=1&srcid=1206sjKMqx6n56pfjY6oyYbj&sharer_shareinfo=8f9c46801a14cec1bab576fd52883835&sharer_shareinfo_first=22346c30d8d4d662e55086e91a3c484b#rd), 2023 **(Team Honor)**
 
-11\. Shenzhen-Hong Kong-Macao FinTech Professional Level 2 (Artificial Intelligence), 2022 **(Individual Honor)**
+13\. [People's Bank of China (PBC) FinTech Development Award](https://file.smejs.cn/group1/M00/05/34/rBIAAWWJHSaAPN05AAWzdVw-4gQ028.pdf), *Financial Data Privacy-Preserving Computing Platform*, **Second Prize**, 2022, **(Rank 6/15, Lead Presenter)**
 
-10\. Shenzhen Computer Federation (SZCCF) **Science and Technology Award**, 2021 **(Ranked 3rd)**
+12\. [Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award](https://saai.net.cn/%e3%80%90%e9%80%9a%e7%9f%a5%e3%80%912022-%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%ba%8c%e5%b1%8a%e6%b7%b1%e5%9c%b3%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%a5%96%e8%8e%b7%e5%a5%96%e5%90%8d/), *Beehive Full-Chain Privacy-Preserving Computing Service System*, 2022, **(Rank 5/6)**
 
-9\. The 2nd International Machine Simultaneous Interpretation Competition (NAACL), Chinese Speech and English Text Track, **First Place**, 2021 **(Ranked 2nd)**
+11\. [Shenzhen-Hong Kong-Macao FinTech Professional Level 2 (Artificial Intelligence)](https://shmftpp.com/uploadfile/2023/1205/weby.cc2023120506132725745898345559.pdf), 2022 **(Individual Honor)**
 
-8\. CCF Science and Technology Progress **Distinguished Award**, 2020
+10\. [Shenzhen Computer Federation (SZCCF) Science and Technology Award](https://www.szccf.org.cn/?p=2849), *Human-Machine Collaborative Edge Computing System*, 2021, **(Rank 3/8)**
 
-7\. CCF Science and Technology Progress **Excellence Award**, 2020 **(Ranked 4th)**
+9\. [The 2nd International Machine Simultaneous Interpretation Competition (NAACL), Chinese Speech and English Text Track](https://aistudio.baidu.com/competition/detail/62/0/introduction), **First Place**, 2021, **(Rank 2/5)**
 
-6\. Shenzhen Computer Federation (SZCCF) **Science and Technology Award**, 2020 **(Ranked 4th)**
+8\. [CCF Science and Technology Progress **Excellence Award**](https://www.ccf.org.cn/Focus/2020-10-20/709752.shtml), *Beehive Federated Intelligence Platform: A Commercial-Grade Solution for Data Privacy Protection*, 2020, **(Rank 4/9)**
 
-5\. Ministry of Industry and Information Technology Cybersecurity Technology Application **Pilot Demonstration**, 2020 **(Team Honor)**
+7\. [CCF Science and Technology Progress **Distinguished Award**](https://www.ccf.org.cn/Awards/Awards/2019-09-29/669245.shtml), *Occam Platform: An AutoML-Based End-to-End Full-Stack AI Development Acceleration Platform*, 2020 **(Team Member)**
 
-4\. BAI **Global Innovation Award**, RegTech Innovation, 2020 **(Team Honor)**
+6\. [Shenzhen Computer Federation (SZCCF) **Science and Technology Award**](https://news.szccf.org.cn/archives/887), *Federated Intelligence Privacy-Preserving Computing Platform Based on Data Security*, 2020, **(Rank 4/10)**
 
-3\. IDC **Digital Transformation Award**, Financial Category, 2020 **(Team Honor)**
+5\. [Ministry of Industry and Information Technology Cybersecurity Technology Application **Pilot Demonstration**](https://www.secrss.com/articles/26946), *High-Availability Federated Learning Technology Platform for Data Security*, 2020 **(Team Honor)**
 
-2\. WMT World Machine Translation Competition, English-to-Chinese Track, **First Place**, 2019 **(Team Honor)**
+4\. [BAI **Global Innovation Award** (RegTech Innovation)](https://www.businesswire.com/news/home/20210129005252/zh-CN), *Pingan Beehive Federated Intelligence Platform*, 2020 **(Team Honor)**
 
-1\. MIT Graph Challenge, Sparse Neural Network Track, **Finalist**, 2019 **(Team Honor)**
+3\. [IDC **Digital Transformation Award** (Financial Category)](https://qiye.chinadaily.com.cn/a/202009/01/WS5f4e0773a3100849784228b4.html), 2020 **(Team Honor)**
+
+2\. [WMT World Machine Translation Competition, English-to-Chinese Track](https://mp.weixin.qq.com/s/8V_kzq0fo3V9-rIlRnDMnA), **First Place**, 2019 **(Team Honor)**
+
+1\. [MIT Graph Challenge, Sparse Neural Network Track](https://graphchallenge.mit.edu/champions/), **Finalist**, 2019 **(Team Honor)**
 
 # 🏅 Company Awards
 
@@ -179,11 +183,11 @@ He has published nearly 20 papers at top international conferences and journals 
 
 # 📐 Standards & White Papers
 
-9\. *Technical Specification for Privacy-Preserving Computing Interconnection in Digital Finance*, 2026 (Expected) (Financial Industry Standard)
+9\. *Technical Specification for Privacy-Preserving Computing Interconnection in Digital Finance*, 2026 (Expected) (**Financial Industry Standard**)
 
 8\. [*Research Report on Key Technologies of Data Element Circulation Networks for the Financial Industry Based on Data Spaces*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29650), Beijing FinTech Industry Alliance, 2026 (Industry Research Report)
 
-7\. T/BFIA 072—2026 [*Technical Requirements for Privacy-Preserving Computing in Financial Applications Based on Trusted Execution Environments*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29606), Beijing FinTech Industry Alliance, 2026 (Group Standard)
+7\. **T/BFIA 072—2026** [*Technical Requirements for Privacy-Preserving Computing in Financial Applications Based on Trusted Execution Environments*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29606), Beijing FinTech Industry Alliance, 2026 (**Group Standard**)
 
 6\. [*Development Report on Data Application in the Financial Industry (2024-2025)*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29646), Beijing FinTech Industry Alliance, 2025 (Industry Research Report)
 
@@ -191,11 +195,11 @@ He has published nearly 20 papers at top international conferences and journals 
 
 4\. [*Financial Application Practice Report on Privacy-Preserving Computing Technology Based on Quantum-Resistant Cryptographic Algorithms*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29556), Beijing FinTech Industry Alliance, **Outstanding Project**, 2025 (Industry Research Report)
 
-3\. T/BFIA 031-2024 [*Technical Specification for Privacy-Preserving Computing Interconnection Platform in the Financial Industry*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29357), 2024 (Group Standard)
+3\. **T/BFIA 031-2024** [*Technical Specification for Privacy-Preserving Computing Interconnection Platform in the Financial Industry*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=29357), 2024 (**Group Standard**)
 
 2\. [*Research Report on Privacy-Preserving Computing Interconnection Technology in the Financial Industry*](https://www.bfia.org.cn/sites/home/MsgView.jsp?msgId=28936), 2023 (Industry Research Report)
 
-1\. JR/T 0196-2020 [*Technical Specification for Secure Multi-Party Computation in Financial Applications*](https://std.samr.gov.cn/hb/search/stdHBDetailed?id=B7BA9DE9181993F3E05397BE0A0A1FD2), 2020 (Financial Industry Standard)
+1\. **JR/T 0196-2020** [*Technical Specification for Secure Multi-Party Computation in Financial Applications*](https://std.samr.gov.cn/hb/search/stdHBDetailed?id=B7BA9DE9181993F3E05397BE0A0A1FD2), 2020 (**Financial Industry Standard**)
 
 # 🤝 Public Services
 
@@ -213,21 +217,21 @@ He has published nearly 20 papers at top international conferences and journals 
 
 # 🎓 Academic Backgrounds
 
-- ***09.2024 – 06.2027 (Expected)***, The Hong Kong Polytechnic University, **Doctor of Engineering in Computing**.
+- ***09.2024 – 06.2027 (Expected)***, The Hong Kong Polytechnic University, Doctor of Engineering in Computing.
 
-- ***09.2017 – 11.2018***, University of Edinburgh, **MSc Signal Processing and Communications**. Thesis: Fast Kernel Methods in Machine Learning; Distinction.
+- ***09.2017 – 11.2018***, University of Edinburgh, MSc Signal Processing and Communications, **Outstanding Thesis**: Fast Kernel Methods in Machine Learning.
 
-- ***09.2013 – 06.2017***, Wuhan University of Technology, **B.Eng Communication Engineering (Pilot Class, Top 5%)**. Outstanding Project of the National University Students Innovation and Entrepreneurship Training Program.
+- ***09.2013 – 06.2017***, Wuhan University of Technology, B.Eng Communication Engineering (Pilot Class, Top 5%), **Outstanding Project of the National University Students Innovation and Entrepreneurship Training Program**: Design and Implementation of an NFC-Based Electronic Access Control System.
 
 # 💼 Work Experiences
 
-- ***12.2024 – Present***, Ping An Technology (Shenzhen) Co., Ltd. **Algorithm Lead of the AI Center**, **Algorithm Engineering Expert**.
+- ***12.2024 – Present***, Ping An Technology (Shenzhen) Co., Ltd. **Algorithm Lead in AI Center**, **Algorithm Engineering Expert**.
 
 - ***05.2019 – 11.2024***, Ping An Technology (Shenzhen) Co., Ltd. **Senior Algorithm Engineer** of the AI Center.
 
-- ***09.2018 – 04.2019***, Ping An Technology (Shenzhen) Co., Ltd. **Algorithm Engineer (Intern)** of the AI Center.
+- ***09.2018 – 04.2019***, Ping An Technology (Shenzhen) Co., Ltd. **Algorithm Engineer** (Intern) of the AI Center.
 
-- ***05.2015 – 08.2015***, Kowloon Blueocean Technology Ltd. (Shanghai), **Software Development Engineer (Intern)**.
+- ***05.2015 – 08.2015***, Kowloon Blueocean Technology Ltd. (Shanghai), **Software Development Engineer** (Intern).
 
 # 🧭 Research Interests
 
