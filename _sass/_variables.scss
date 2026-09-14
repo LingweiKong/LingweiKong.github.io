@@ -69,6 +69,13 @@ $text-color                 : $dark-gray;
    故由 #494e52 加深至 #33383d；仍属灰度色系（对比度约 11.8:1），
    未使用纯黑（#000 / 对比度 21:1）以免字面发死、失去层次 */
 $text-color-zh              : #33383d;
+/* 中文页面粗体（<strong>/<b>）字色：在正文字色上再压深一档。
+   楷体笔画偏细，粗体多以合成加粗呈现，颜色不加深时屏幕上仍显偏灰、
+   与常规字重拉不开对比，故由 #33383d 加深至 #282c30：
+   对比度 14.06:1（正文 11.8:1）。取值按 #33383d 同色相等比压深
+   （RGB 各通道 ×0.79），与正文同属蓝灰调；
+   保留灰度而非纯黑，避免字面发死、失去层次 */
+$text-color-zh-strong       : #282c30;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
@@ -107,6 +114,11 @@ $xing-color                 : #006567;
 $link-color                 : #35678c;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
+/* 中文页面（<html lang="zh">）的链接蓝：与 $link-color 同色相（H205.5°/S45%），
+   仅压深明度 —— #35678c（6.05:1）→ #305d7f（7.00:1），
+   与中文正文、中文粗体的加深幅度保持一致；悬停色同步加深 */
+$link-color-zh              : #305d7f;
+$link-color-zh-hover        : mix(#000, $link-color-zh, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 

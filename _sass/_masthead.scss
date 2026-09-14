@@ -200,3 +200,30 @@
 html[lang="en"] .masthead .greedy-nav .visible-links > li > a {
   font-weight: 400;
 }
+
+/* ==========================================================================
+   当前章节高亮（scrollspy，脚本见 assets/js/site.js）
+   等宽导航格内：白底 + 贴底指示条，与 hover 的浅白底区分开
+   ========================================================================== */
+
+.masthead .greedy-nav .visible-links > li > a.is-active {
+  color: $link-color;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: inset 0 -3px 0 0 $link-color;
+}
+
+/* 中文页沿用更深的链接蓝，与正文链接保持一致 */
+html[lang="zh"] .masthead .greedy-nav .visible-links > li > a.is-active {
+  color: $link-color-zh;
+  box-shadow: inset 0 -3px 0 0 $link-color-zh;
+}
+
+/* 收进「更多」下拉里的当前章节 */
+.masthead .greedy-nav .hidden-links a.is-active {
+  color: $link-color;
+  background-color: $lighter-gray;
+}
+
+html[lang="zh"] .masthead .greedy-nav .hidden-links a.is-active {
+  color: $link-color-zh;
+}

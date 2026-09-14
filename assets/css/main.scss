@@ -91,14 +91,33 @@
 
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+/* ==========================================================================
+   章节锚点定位
+   顶部导航是 sticky 的（桌面端约 61px、窄屏约 55px）。原来用「::before 撑高 +
+   负外边距」的写法只给出 2em 偏移（h1 按自身 1.4em 字号换算约 45px，
+   #about-me 则是 10em≈160px），结果章节标题会被导航条盖住一截、
+   「关于我」又会留出大片空白。
+   改用 scroll-margin-top 统一预留顶部空间：取值略大于导航条高度。
+   注意必须用 rem —— em 会按各元素自身字号换算，h1 与正文会得到不同偏移。
+   ========================================================================== */
+
+$scroll-offset: 4.4rem;
+
+h1, h2, h3, h4, h5, h6, .anchor {
+    scroll-margin-top: $scroll-offset;
+}
+
+/* 站内锚点跳转平滑滚动；尊重系统「减弱动态效果」设置 */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* 锚点占位元素：空 span 转为零高块级盒，滚动定位更可靠 */
+.anchor {
+    display: block;
+    height: 0;
 }
 
 .badge {
@@ -168,4 +187,97 @@ $link-underline-idle: rgba($link-color, 0.3);
 
 html[lang="zh"] body {
     color: $text-color-zh;
+}
+
+/* ==========================================================================
+   中文页面粗体字色加深
+   楷体笔画细，粗体在灰阶抗锯齿下整体偏灰，单独把 <strong>/<b> 的字色
+   再压深一档（$text-color-zh-strong），与常规字重拉开对比。
+   仅影响中文页；链接及其内部的粗体保持链接色，不受影响。
+   ========================================================================== */
+
+/* 粗体字面：全站禁用了合成加粗（_base.scss 的 font-synthesis-weight: none），
+   而楷体的粗体字面是「macOS 的 Kaiti SC 有、Windows 的 KaiTi 没有」。
+   这里给中文粗体单独指定一条字体链：有真粗体的楷体优先（macOS 字形不变），
+   无粗体的平台退到同样有真实 Bold 的宋体/黑体，保证 Windows 上「粗体」也真变粗。
+
+   链首必须先排西文/数字字体，且与 $sans-serif 的前缀保持一致：
+   本规则作用于中文页所有 <strong>/<b>，其中混有大量拉丁串
+   （如 **No.2024YFB4504300**、**ZL202511201726.6**、**NAS 2025**）。
+   楷体自带拉丁字形，若把它放在链首，这些英文/数字会被楷体渲染成楷体西文，
+   与页面其余西文（Source Serif 4）不一致；把西文放前面可让粗体西文
+   与正文西文同字面、同粗细。Source Serif 4 不含 CJK 字形，
+   中文仍会继续回退到后面的楷体/宋体，中文粗体的既有行为不变。 */
+$zh-bold-font-family: "Source Serif 4", Georgia, "Times New Roman",
+    "Kaiti SC", "Songti SC", "SimSun", "Source Han Serif SC",
+    "Noto Serif CJK SC", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
+    "Heiti SC", serif;
+
+html[lang="zh"] strong,
+html[lang="zh"] b {
+    font-family: $zh-bold-font-family;
+    color: $text-color-zh-strong;
+}
+
+/* 链接内部的粗体：跟随链接色（含悬停变色） */
+html[lang="zh"] a strong,
+html[lang="zh"] a b {
+    color: inherit;
+}
+
+/* 粗体内部的链接：保持链接色 */
+html[lang="zh"] strong a,
+html[lang="zh"] b a {
+    color: $link-color-zh;
+}
+
+/* ==========================================================================
+   中文页面链接蓝加深
+   与英文版同色相（H205.5°/S45%），只压深明度：
+   #35678c（6.05:1）→ #305d7f（7.00:1）。
+   下划线、悬停高亮沿用英文版的做法，仅换用更深的蓝。
+   仅作用于正文链接：中文页上呈蓝色的只有正文链接，侧栏
+   （.author__urls a）、页脚（.page__footer a）与导航
+   （.masthead .greedy-nav a）的链接都是 color: inherit 或自带规则，
+   不属于链接蓝，故不覆盖，避免误伤它们的继承色。
+   ========================================================================== */
+
+html[lang="zh"] .page__content a {
+    color: $link-color-zh;
+    text-decoration-color: rgba($link-color-zh, 0.3);
+
+    &:hover,
+    &:focus {
+        color: $link-color-zh-hover;
+        text-decoration-color: currentColor;
+        background-color: rgba($link-color-zh, 0.08);
+    }
+}
+
+/* ==========================================================================
+   中文页面正文排版
+   1) 行高 1.5 → 1.65：中文没有西文的 x-height 节奏，长段落行距偏紧会显得密
+   2) 数字等宽：年份、专利号、排名在楷体里宽度不一，tabular-nums 让竖排数字对齐
+   3) 章节标题里 emoji 与文字之间多留一点空（标题中只有这一处空格，故用 word-spacing）
+   ========================================================================== */
+
+html[lang="zh"] .page__content {
+    line-height: 1.65;
+    font-variant-numeric: tabular-nums;
+}
+
+html[lang="zh"] .page__content h2 {
+    word-spacing: 0.12em;
+}
+
+/* ==========================================================================
+   侧栏吸顶位置与正文锚点保持一致
+   主题默认 top: 6em（约 90px），比 sticky 顶栏（约 57px）松散；
+   改用与 scroll-margin-top 相同的 $scroll-offset，导航跳转后侧栏与标题同高。
+   ========================================================================== */
+
+@include breakpoint($large) {
+    .sticky {
+        top: $scroll-offset;
+    }
 }

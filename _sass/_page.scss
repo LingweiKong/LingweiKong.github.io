@@ -50,25 +50,43 @@
 }
 
 .page__content {
-  #about-me{
-    margin-top: -10em;
-      &:before { 
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 10em; 
-        margin-top: -10em;
-    }
-  }
-  h1 {
+  /* 长不可断串（长 URL、No.ZDCY20250901100302003 这类编号）兜底换行，
+     避免窄屏撑破版心；中文本就可任意换行，不受影响 */
+  overflow-wrap: break-word;
+
+  /* 章节标题：由 h1 改为 h2（页面本身没有可见标题，h1 留给隐藏的页面标题），
+     字号 1.5em 比主题默认的 h2(1.2em) 略大，保持原先 h1 的视觉重量 */
+  h2 {
     margin-top: 2em; /* 章节间留白在原 1em 基础上放大一倍 */
     padding-bottom: 0.5em;
+    font-size: 1.5em;
     border-bottom: 1px solid $border-color;
   }
 
   p, li, dl {
     font-size: 1em;
+  }
+
+  /* 条目列表：编号/项目符号挂在内容区左侧，正文自动形成悬挂缩进，
+     换行后的第二行与首行文字左对齐（原先编号写在正文里，第二行会顶到版心左边缘）。
+     条目间距对齐原段落间距（$indent-var = 0.75em）：li 自带 0.5em 下边距 + 0.25em 上边距 */
+  ol,
+  ul {
+    padding-inline-start: 2.1em;
+    margin-block-start: 1em;
+  }
+
+  li + li {
+    margin-top: 0.25em;
+  }
+
+  /* 列表项内的段落不再额外留白，间距统一由 li 控制 */
+  li > p {
+    margin-bottom: 0;
+  }
+
+  li::marker {
+    font-variant-numeric: tabular-nums; /* 让 1. 与 13. 这类编号宽度对齐 */
   }
 
   /* paragraph indents */
