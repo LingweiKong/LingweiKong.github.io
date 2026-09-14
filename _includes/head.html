@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+
+<!-- 全站链接默认新标签打开（论文、专利等站外链接居多）；
+     站内导航链接已逐个加 target="_self" 覆盖。 -->
+<base target="_blank">

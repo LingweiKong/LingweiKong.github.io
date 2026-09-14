@@ -95,6 +95,9 @@
   img {
     max-width: 175px;
     min-width: 75px;
+    /* 配合 <img> 上的 width/height 属性：加载前先占好位置（避免布局跳动），
+       height: auto 保证等比缩放不会被属性里的固定高度拉变形 */
+    height: auto;
     border-radius: 50%;
 
     @include breakpoint($large) {
