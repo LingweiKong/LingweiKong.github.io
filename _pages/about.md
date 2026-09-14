@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-KONG Lingwei (Mark), Doctor of Engineering in Computing at The Hong Kong Polytechnic University, Algorithm Lead and Principal Applied Scientist in AI Center at Ping An Technology , Key Talent in Shanghai's Strategic Industries, and a Level-2 Shenzhen-Hong Kong-Macao FinTech Professional (Artificial Intelligence). He is currently a member of the Big Data Committee of the China Computer Federation (CCF), and an executive member of the Digital Finance Committee and the Data Security and Web 3.0 Committee of the Shenzhen Computer Federation (SZCCF). He has long been engaged in the innovation, R&D and large-scale industrial deployment of **artificial intelligence, big data, privacy-preserving computing, and trustworthy data space** in the financial industry.
+**KONG Lingwei (Mark)**, Doctor of Engineering in Computing at The Hong Kong Polytechnic University, **Algorithm Lead** and **Principal Applied Scientist** in AI Center at Ping An Technology, Key Talent in Shanghai's Strategic Industries, and a **Level-2 Shenzhen-Hong Kong-Macao FinTech Professional (Artificial Intelligence)**. He is currently a member of the Big Data Committee of the China Computer Federation (CCF), and an executive member of the Digital Finance Committee and the Data Security and Web 3.0 Committee of the Shenzhen Computer Federation (SZCCF). He has long been engaged in the innovation, R&D and large-scale industrial deployment of **artificial intelligence, big data, privacy-preserving computing, and trustworthy data space** in the financial industry.
 
-He has published 18 papers in related fields at home and abroad, applied for more than 50 patents, participated in several national and provincial key R&D projects, won championships in multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include **the Second Prize of the FinTech Development Award of the People's Bank of China (PBC)**, **the Second Prize of the "Data Elements ×" Competition (Guangdong Division) of the National Data Administration**, **the CCF Science and Technology Progress Distinguished Award**, the **Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award**, and the **Shenzhen Computer Federation (SZCCF) Science and Technology Award**. He is also a co-supervisor for master's students at the University of Science and Technology of China.
+He has published nearly 20 papers at top international conferences and journals in related fields, applied for more than 70 patents, participated in several national and provincial key R&D projects, won championships in multiple domestic and international technical competitions, and contributed to the formulation of several financial industry and group standards. His honors include **the Second Prize of the FinTech Development Award of the People's Bank of China (PBC)**, **the Second Prize of the "Data Elements ×" Competition (Guangdong Division) of the National Data Administration**, **the CCF Science and Technology Progress Distinguished Award**, the **Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award**, and the **Shenzhen Computer Federation (SZCCF) Science and Technology Award**. He is also a co-supervisor for master's students at the University of Science and Technology of China.
 
 # 📄 Research Papers
 
@@ -45,9 +45,9 @@ He has published 18 papers in related fields at home and abroad, applied for mor
 
 3\. [Performance of Training Sparse Deep Neural Networks on GPUs](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN), Jianzong Wang, Zhangcheng Huang, **Lingwei Kong**, Jing Xiao, Pengyu Wang, Lu Zhang, Chao Li. **HPEC 2019**.
 
-2\. [A Federated Learning Schema with Additive Homomorphic Encryption](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，**Lingwei Kong**，Jianzong Wang，Zhangcheng Huang，Anxun He，Linjie Chen，Man Zhang，Jing Xiao. **FL-IJCAI 2019**, IJCAI Workshop.（First Author）
+2\. [A Federated Learning Schema with Additive Homomorphic Encryption](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN), **Lingwei Kong**, Jianzong Wang, Zhangcheng Huang, Anxun He, Linjie Chen, Man Zhang, Jing Xiao. **FL-IJCAI 2019**, IJCAI Workshop. (First Author)
 
-1\. [Two Proposed Vehicle Insurance Pricing Frameworks Based on Federated Machine Learning](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Anxun He，Jianzong Wang，Zhangcheng Huang，Linjie Chen，**Lingwei Kong**，Man Zhang，Mei Han，Ruei-Sung Lin，Jing Xiao. **SDBD 2019**, KDD Workshop.
+1\. [Two Proposed Vehicle Insurance Pricing Frameworks Based on Federated Machine Learning](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN), Anxun He, Jianzong Wang, Zhangcheng Huang, Linjie Chen, **Lingwei Kong**, Man Zhang, Mei Han, Ruei-Sung Lin, Jing Xiao. **SDBD 2019**, KDD Workshop.
 
 # 📚 Survey Papers
 
@@ -63,27 +63,27 @@ He has published 18 papers in related fields at home and abroad, applied for mor
 
 # 💡 Authorized Patents
 
-9\. **ZL202511201726.6** Data processing method, apparatus, device and medium based on adaptive meta-learning.
+9\. [**ZL202511201726.6**](https://d.wanfangdata.com.cn/patent/ZL_CN202511201726.6_CN121094063B_20260327) Data processing method, apparatus, device and medium based on adaptive meta-learning.
 
-8\. **ZL202510021120.8** Method, device, computer equipment and storage medium for interface invocation.
+8\. [**ZL202510021120.8**](https://d.wanfangdata.com.cn/patent/ZL_CN202510021120.8_CN119960938B_20251010) Method, device, computer equipment and storage medium for interface invocation.
 
-7\. **ZL202411452756.X** Artificial intelligence based data prediction processing method, apparatus, device and medium.
+7\. [**ZL202411452756.X**](https://d.wanfangdata.com.cn/patent/ZL_CN202411452756.X_CN119338028B_20260407) Artificial intelligence based data prediction processing method, apparatus, device and medium.
 
-6\. **ZL20210735132.9** Machine translation method based on omnidirectional attention mechanism.
+6\. [**ZL202110735132.9**](https://d.wanfangdata.com.cn/patent/ZL_CN202110735132.9_CN113420869B_20240315) Machine translation method based on omnidirectional attention mechanism.
 
-5\. **ZL202011118337.4** Case search method, device and readable storage medium based on interactive feedback.
+5\. [**ZL202011118337.4**](https://d.wanfangdata.com.cn/patent/ZL_CN202011118337.4_CN112259254B_20240507) & [**WO2021189983A1**](https://patents.google.com/patent/WO2021189983A1/zh) (PCT) Case search method, device and readable storage medium based on interactive feedback.
 
-4\. **ZL201910884713.1** Method, device, equipment and storage medium for text encoding based on neural network.
+4\. [**ZL201910884713.1**](https://d.wanfangdata.com.cn/patent/ZL_CN201910884713.1_CN110795912B_20230620) & [**WO2021051595A1**](https://patents.google.com/patent/WO2021051595A1/zh) (PCT) Method, device, equipment and storage medium for text encoding based on neural network.
 
-3\. **ZL201910879339.6** Adversarial defense method and related device for image classification network.
+3\. [**ZL201910879339.6**](https://d.wanfangdata.com.cn/patent/ZL_CN201910879339.6_CN110717522B_20240906) & [**WO2021051561A1**](https://patents.google.com/patent/WO2021051561A1/zh) (PCT) Adversarial defense method and related device for image classification network.
 
-2\. **ZL201910871381.3 & 40018226B (HK)** Data anomaly analysis method, system and computer equipment based on graph analysis.
+2\. [**ZL201910871381.3**](https://d.wanfangdata.com.cn/patent/ZL_CN201910871381.3_CN110766557B_20240319) & [**WO2021051938A1**](https://patents.google.com/patent/WO2021051938A1/zh) (PCT) & [**40018226B**](https://patents.google.com/patent/HK40018226B/zh) (HK) Data anomaly analysis method, system and computer equipment based on graph analysis.
 
-1\. **ZL201910429520.7** Authenticity verification method, device, computer equipment and storage medium of botanical crude drugs.
+1\. [**ZL201910429520.7**](https://d.wanfangdata.com.cn/patent/ZL_CN201910429520.7_CN110287991B_20231219) Authenticity verification method, device, computer equipment and storage medium of botanical crude drugs.
 
 # 🏆 Selected Honors
 
-25\. Shanghai Talents in Key Industries Special Award, 2024-2025 **(Individual Honor)**
+25\. **Shanghai Talents in Key Industries Special Award**, 2024-2025 **(Individual Honor)**
 
 24\. National Data Administration "Data Elements ×" Competition, National Final, **Second Prize**, 2025 **(Team Member)**
 
