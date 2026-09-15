@@ -104,6 +104,8 @@ He has published nearly 20 papers at top international conferences and journals 
 
 1. [People's Bank of China (PBC) FinTech Development Award](https://file.smejs.cn/file/group1/M00/00/44/rBIAAWcV9iCANlIIAAdtBePpfZs288.pdf), *Auto Finance Digital Intelligence Platform*, Third Prize, 2023, **(Rank 6/11, Lead Presenter)**
 
+1. [CCF Outstanding Case of Enterprise Digitalization Development](https://www.ccf.org.cn/Focus/2024-02-05/813807.shtml), *Financial Digitalization Project Based on Trustworthy Privacy-Preserving Computing*, 2023 **(Team Honor, Lead Presenter)**
+
 1. [Shenzhen Artificial Intelligence (SAAI) Science and Technology Progress Award](https://saai.net.cn/%e3%80%90%e9%80%9a%e7%9f%a5%e3%80%912023%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%b1%8a%e6%b7%b1%e5%9c%b3%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%a5%96%e5%a5%96%e5%8a%b1%e5%85%ac/), *Vehicle Insurance Actuarial Pricing Platform for Trustworthy Data Elements Circulation*, 2023, **(Rank 9/10)**
 
 1. [Shenzhen Computer Federation (SZCCF) Science and Technology Award](https://www.szccf.org.cn/?p=5306), *Next-Generation Privacy-Preserving Computing Platform for Trustworthy Data Elements Circulation*, 2023, **(Rank 4/9, Lead Presenter)**
