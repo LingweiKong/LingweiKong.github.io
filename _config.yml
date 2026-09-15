@@ -7,13 +7,10 @@
 
 # Site Settings
 title                    : "Lingwei KONG"
-title_zh                 : "孔令炜（Lingwei KONG）"   # 中文页 <title> 与分享卡片用
+title_zh                 : "孔令炜（Lingwei KONG）"   # 中文站名，暂未引用（中英文页 <title> 已统一为 "Lingwei KONG - Homepage"）
 description              : "Doctor of Engineering, Algorithm Lead & Principal Applied Scientist"
 description_zh           : "计算机工程博士 · 算法经理，算法工程专家"
 repository               : "LingweiKong/LingweiKong.github.io"
-
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
@@ -24,7 +21,6 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Lingwei KONG (Mark)"
   avatar           : "images/avatar.png"   # 350×350（显示宽 175px 的 2 倍），原 512×512 的 139KB → 81KB
-  bio              : 
   location         : "Shenzhen, China"
   location_zh       : "中国 · 深圳"
   employer         :
@@ -45,7 +41,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/lingwei-kong-8bb092b9"
+  linkedin         : "lingwei-kong-8bb092b9"   # 模板会拼 https://www.linkedin.com/in/ 前缀，此处只填用户名
   dblp             :
   orcid            : "https://orcid.org/0000-0001-7492-2823"
   pinterest        :
@@ -63,36 +59,18 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
-  - files
+# Gemfile / Gemfile.lock / node_modules / vendor 已在 Jekyll 内置排除规则中，无需重复声明
 exclude:
+  - .bundle
+  - .github
+  - .jekyll-cache
+  - .sass-cache
   - docs
   - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
   - LICENSE
   - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
+  - run_server.sh   # 本地预览脚本，不发布到线上
 keep_files:
   - .git
   - .svn
@@ -142,24 +120,9 @@ timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 
 # Plugins
+# jekyll-sitemap：生成 sitemap.xml
+# jekyll-redirect-from：为 /about/、/zh.html 等旧链接生成跳转页
+# （站点无文章，故不需要 jekyll-paginate / jekyll-feed；内容里没有 gist 引用）
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development

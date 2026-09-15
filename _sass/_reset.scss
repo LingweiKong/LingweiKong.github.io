@@ -114,13 +114,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* Prevent max-width from affecting Google Maps */
-
-#map_canvas img,
-.google-maps img {
-  max-width: none;
-}
-
 /* Consistent form font size in all browsers, margin changes, misc */
 
 button,

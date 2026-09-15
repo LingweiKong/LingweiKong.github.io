@@ -1,13 +1,15 @@
 /* ==========================================================================
    站点交互脚本（原生 JS，无依赖）
    --------------------------------------------------------------------------
-   取代原先 131KB 的 jQuery + 插件打包文件 main.min.js。用到jQuery 的三件事
+   取代原先 131KB 的 jQuery + 插件打包文件 main.min.js。用到 jQuery 的两件事
    在这里各自用几十行原生代码实现：
 
    1. 顶部导航折叠：宽度不足时把右侧菜单项依次收进「更多」下拉
       （对应原 jquery.greedy-navigation 插件，行为保持一致）
    2. 顶栏高亮当前章节：页内锚点滚动时给对应导航项打 is-active（scrollspy）
-   3. 窄屏隐藏侧栏链接（对应原 _main.js 的 stickySideBar 行为）
+
+   侧栏链接的显隐交给 CSS：$large 断点（925px）下 .author__urls 与
+   .author__urls_sm 互相切换，无需 JS 参与。
 
    原打包文件里用不到的插件一并去掉：
    - magnific-popup（灯箱）：页面没有图片弹层
@@ -130,21 +132,6 @@
   }
 
   /* ---------------------------------------------------------------
-     3. 窄屏隐藏侧栏链接（与原 _main.js 行为一致）
-     --------------------------------------------------------------- */
-
-  function updateSidebar() {
-    var urls = document.querySelector('.author__urls');
-    if (!urls) return;
-
-    var wrapper = document.querySelector('.author__urls-wrapper');
-    var button = wrapper && wrapper.querySelector('button');
-    var show = button ? button.offsetParent !== null : window.innerWidth > 925;
-
-    urls.style.display = show ? '' : 'none';
-  }
-
-  /* ---------------------------------------------------------------
      事件绑定
      --------------------------------------------------------------- */
 
@@ -161,12 +148,10 @@
 
   function onResize() {
     updateNav();
-    updateSidebar();
     updateSpy();
   }
 
   updateNav();
-  updateSidebar();
   collectSpyTargets();
   updateSpy();
 

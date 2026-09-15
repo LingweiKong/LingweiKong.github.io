@@ -8,18 +8,16 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<!-- 标题与描述按页面语言区分：中英文页不应共用同一串英文标题 -->
+<!-- 标题中英文页统一为「站名 - Homepage」；仅 locale 与描述按语言区分 -->
 {% if page.lang == 'zh' %}
-  {% assign seo_site_title = site.title_zh | default: site.title %}
-  {% assign seo_suffix = '个人主页' %}
   {% assign seo_locale = 'zh_CN' %}
   {% assign seo_description = page.description | default: site.description_zh %}
 {% else %}
-  {% assign seo_site_title = site.title %}
-  {% assign seo_suffix = 'Homepage' %}
   {% assign seo_locale = 'en_US' %}
   {% assign seo_description = page.description | default: site.description %}
 {% endif %}
+{% assign seo_site_title = site.title %}
+{% assign seo_suffix = 'Homepage' %}
 {% assign seo_title = seo_site_title | append: ' - ' | append: seo_suffix %}
 
 <title>{{ seo_title }}</title>

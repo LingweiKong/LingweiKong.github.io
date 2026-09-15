@@ -49,22 +49,6 @@
   }
 }
 
-.sidebar__right {
-  margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
-    z-index: 10;
-  }
-
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-  }
-}
-
 /*
    Author profile and links
    ========================================================================== */
@@ -145,24 +129,13 @@
   margin-top: 0.75em;
 }
 
-.author__bio {
-  margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-}
-
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   margin-left: auto;
-  cursor: pointer;
 
   li:last-child {
     a {
@@ -173,73 +146,19 @@
   @include breakpoint($large) {
     display: block;
   }
-
-  button {
-    margin-bottom: 0;
-    width: 120px;
-    padding: 0.5em;
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
 }
 
+/* 窄屏默认收起，改由同处的 .author__urls_sm 显示纯图标版。
+   margin/padding 必须显式归零：_base.scss 给 ul 设了
+   padding-inline-start: 2em，不归零列表会整体右移一个缩进。 */
 .author__urls {
   display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
-  cursor: default;
 
   @include breakpoint($large) {
     display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: $border-color transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   li {

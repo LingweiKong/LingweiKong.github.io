@@ -20,76 +20,20 @@
 
 @import "utilities";
 @import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
 @import "masthead";
 @import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
 
 @import "page";
-@import "archive";
 @import "sidebar";
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
 /* 英文/数字 → Source Serif 4（自托管，@font-face 见 assets/css/source-serif-4.css，
    由 _includes/head/custom.html 引入）；该字体不含 CJK 字形，中文等其余字符自动回退到
    字体栈中的华文楷体(STKaiti/KaiTi) */
-
-.paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
-
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
-}
 
 /* ==========================================================================
    章节锚点定位
@@ -118,17 +62,6 @@ h1, h2, h3, h4, h5, h6, .anchor {
 .anchor {
     display: block;
     height: 0;
-}
-
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
 }
 
 /* ==========================================================================
@@ -237,9 +170,9 @@ html[lang="zh"] b a {
    #35678c（6.05:1）→ #305d7f（7.00:1）。
    下划线、悬停高亮沿用英文版的做法，仅换用更深的蓝。
    仅作用于正文链接：中文页上呈蓝色的只有正文链接，侧栏
-   （.author__urls a）、页脚（.page__footer a）与导航
-   （.masthead .greedy-nav a）的链接都是 color: inherit 或自带规则，
-   不属于链接蓝，故不覆盖，避免误伤它们的继承色。
+   （.author__urls a）与导航（.masthead .greedy-nav a）的链接
+   都是 color: inherit 或自带规则，不属于链接蓝，
+   故不覆盖，避免误伤它们的继承色。
    ========================================================================== */
 
 html[lang="zh"] .page__content a {

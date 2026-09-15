@@ -3,8 +3,7 @@
 #
 # 说明：仓库里的 Gemfile 面向 GitHub Pages（github-pages 依赖集），本地通常没有安装
 # 这套依赖，直接 `bundle exec` 会报 Bundler::GemNotFound。因此这里跳过 bundler，
-# 改用系统已安装的 Jekyll 4 及插件（jekyll-paginate / jekyll-sitemap / jekyll-gist /
-# jekyll-feed / jekyll-redirect-from / jemoji）。
+# 改用系统已安装的 Jekyll 4 及插件（jekyll-sitemap / jekyll-redirect-from）。
 #
 # 若本地已经执行过 `bundle install`，也可以改用：bundle exec jekyll serve
 

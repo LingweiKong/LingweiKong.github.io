@@ -1,34 +1,27 @@
 /* ==========================================================================
    UTILITY CLASSES
+   --------------------------------------------------------------------------
+   只保留两类工具类：
+   1) 本站骨架真正用到的（.hidden / .visually-hidden / .navicon / .sticky /
+      .social-icons）
+   2) Markdown 里可以直接手写的排版类（.text-* / .align-* / 脚注）
+   主题自带但本站用不到的 Bootstrap 残留（.well / .modal / .show-modal）、
+   表单相关（.required）、跳转链接与读屏工具箱（.skip-link /
+   .screen-reader-text*）、预加载（.load / .transparent）、
+   容器类（.wrapper / .cf / .full）、SVG 图标（.icon）已全部移除。
    ========================================================================== */
 
 /*
    Visibility
    ========================================================================== */
 
-/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
-
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-/* for preloading images */
-
-.load {
-  display: none;
-}
-
-.transparent {
-  opacity: 0;
-}
-
-/* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
-
-.visually-hidden,
-.screen-reader-text,
-.screen-reader-text span,
-.screen-reader-shortcut {
+/* 视觉隐藏、留给读屏器：中英文页的隐藏 <h1> 用它 */
+.visually-hidden {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px !important;
@@ -37,46 +30,12 @@
   overflow: hidden;
 }
 
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+
 body:hover .visually-hidden a,
 body:hover .visually-hidden input,
 body:hover .visually-hidden button {
   display: none !important;
-}
-
-/* screen readers */
-
-.screen-reader-text:focus,
-.screen-reader-shortcut:focus  {
-  clip: auto !important;
-  height: auto !important;
-  width: auto !important;
-  display: block;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 15px 23px 14px;
-  background: #fff;
-  z-index: 100000;
-  text-decoration: none;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
-}
-
-
-/*
-   Skip links
-   ========================================================================== */
-
-.skip-link {
-  position: fixed;
-  z-index: 20;
-  margin: 0;
-  font-family: $sans-serif;
-  white-space: nowrap;
-}
-
-.skip-link li {
-  height: 0;
-  width: 0;
-  list-style: none;
 }
 
 
@@ -106,20 +65,7 @@ body:hover .visually-hidden button {
 
 
 /*
-   Alignment
-   ========================================================================== */
-
-/* clearfix */
-
-.cf { clear: both; }
-
-.wrapper {
-  @include container();
-}
-
-
-/*
-   Images
+   Alignment（图片排版，Markdown 中用 {: .align-left} 一类写法启用）
    ========================================================================== */
 
 /* image align left */
@@ -156,32 +102,16 @@ body:hover .visually-hidden button {
   margin-right: auto;
 }
 
-/* file page content container */
-
-.full {
-  @include breakpoint($large){
-    margin-right: -1 * span(2.5 of 12) !important;
-  }
-}
 
 /*
    Icons
    ========================================================================== */
 
-.icon {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1.1em;
-  line-height: 1;
-  position: relative;
-  top: -0.1em;
-  vertical-align: middle;
-}
-
-/* social icons*/
+/* 侧栏图标配色：与 author-profile.html 里可选的链接一一对应，
+   以后启用新链接（如 github）不必另外补样式 */
 
 .social-icons {
+
   .fa {
     color: #000;
   }
@@ -284,10 +214,7 @@ body:hover .visually-hidden button {
   }
 }
 
-
-/*
-   Navicons
-   ========================================================================== */
+/* 窄屏顶栏「更多」按钮的三道杠，展开后转成叉 */
 
 .navicon {
   position: relative;
@@ -363,77 +290,7 @@ body:hover .visually-hidden button {
 
 
 /*
-   Wells
-   ========================================================================== */
-
-.well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: $border-radius;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-
-/*
-   Modals
-   ========================================================================== */
-
-.show-modal {
-  overflow: hidden;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.85);
-  }
-
-  .modal {
-    display: block;
-  }
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  width: 300px;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
-  min-height: 0;
-  z-index: 9999;
-  background: #fff;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
-  &__title {
-    margin: 0;
-    padding: 0.5em 1em;
-  }
-
-  &__supporting-text {
-    padding: 0 1em 0.5em 1em;
-  }
-
-  &__actions {
-    padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
-  }
-}
-
-
-/*
-   Footnotes
+   Footnotes（kramdown 脚注自动生成的类）
    ========================================================================== */
 
 .footnote {
@@ -457,14 +314,4 @@ a.reversefootnote {
   &:hover {
     text-decoration: underline;
   }
-}
-
-
-/*
-   Required
-   ========================================================================== */
-
-.required {
-  color: $danger-color;
-  font-weight: bold;
 }

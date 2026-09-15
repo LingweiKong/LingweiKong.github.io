@@ -13,7 +13,6 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.75em; // 段落间距（下边距），原 0.5em，用户先放大一倍、现微调为 0.75em
 
 /* system typefaces */
-$serif                      : "Source Serif 4", Georgia, Times, serif;
 /* 全站字体：英文/数字走 Source Serif 4（自托管，见 assets/css/source-serif-4.css）；
    中文依次回退 楷体 → 苹方/冬青黑/黑体/微软雅黑（均带真实字重，
    避免中文加粗落到宋体上、小字号糊成一团） */
@@ -25,28 +24,16 @@ $monospace                  : "Source Serif 4", Monaco, Consolas, "Lucida Consol
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-
-/* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $sans-serif;
 
-/* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
+/* type scale（只保留实际用到的档位，未用到的 1/2/7 档已删除） */
 $type-size-3                : 1.4em;  // ~25.008px
 $type-size-4                : 1.2em;   // ~20px
 $type-size-5                : 1em;      // ~16px
 $type-size-6                : 1em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
 
 
 /*
@@ -55,14 +42,11 @@ $type-size-8                : 0.625em;  // ~10px
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 /* 中文页面（/zh/，<html lang="zh">）的正文字色：比英文版深一档。
    中文字形笔画密集、字面灰度高，配合灰阶抗锯齿后整体观感偏浅，
@@ -79,11 +63,7 @@ $text-color-zh-strong       : #282c30;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #224b8d;
-// $info-color                 : #52adc8;
+$warning-color              : #f89406; // 仅 tab-focus 焦点框使用（_mixins.scss）
 
 /* brands */
 $behance-color              : #1769FF;
@@ -109,11 +89,10 @@ $xing-color                 : #006567;
 
 
 /* links */
-/* 正文链接配色：原为深海军蓝（$info-color #224b8d），在灰色调页面里偏重、跳脱，
-   改为柔和的钢蓝色，与 masthead/正文的灰阶更协调；$info-color 仅供按钮/notice 使用 */
+/* 正文链接配色：原为深海军蓝（#224b8d），在灰色调页面里偏重、跳脱，
+   改为柔和的钢蓝色，与 masthead/正文的灰阶更协调 */
 $link-color                 : #35678c;
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
 /* 中文页面（<html lang="zh">）的链接蓝：与 $link-color 同色相（H205.5°/S45%），
    仅压深明度 —— #35678c（6.05:1）→ #305d7f（7.00:1），
    与中文正文、中文粗体的加深幅度保持一致；悬停色同步加深 */
@@ -145,10 +124,6 @@ $x-large                    : 1280px !default;
 /*
    Grid
    ========================================================================== */
-
-$right-sidebar-width-narrow : 0px;
-$right-sidebar-width        : 0px;
-$right-sidebar-width-wide   : 0px;
 
 $susy: (
   columns: 12,

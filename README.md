@@ -11,11 +11,12 @@ Built with [Jekyll](https://jekyllrb.com/) and hosted on **GitHub Pages**. The s
 ## Repository Structure
 
 ```text
-_config.yml                  Global site configuration (site info, author profiles, SEO, analytics)
-_pages/about.md              Homepage content
-_includes/                   Reusable layout snippets (head, masthead, sidebar, analytics, etc.)
+_config.yml                  Global site configuration (site info, author profiles, SEO)
+_pages/about.md              Homepage content (about-zh.md for the Chinese version)
+_includes/                   Reusable layout snippets (head, masthead, sidebar, etc.)
 _layouts/                    Page layouts
 _data/navigation.yml         Navigation menu definitions
+_data/social_links.yml       Sidebar contact/social links, consumed by author-profile.html
 _sass/                       Stylesheets (SCSS)
 assets/                      Static assets (CSS, JS, fonts)
 images/                      Avatars and favicon files
