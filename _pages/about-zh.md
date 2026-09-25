@@ -19,44 +19,44 @@ redirect_from:
 
 ## 📄 科研论文
 
-1. [FASA: Feedback-Aware Sampling Adaptation for Efficient Diffusion-Based VLA Model](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Yuchen Han, Jianhan Wu, Xiaoyang Qu, **Lingwei Kong**, Shiyi Li, Jianzong Wang. **NAS 2025**. (CCF-C)
+1. [FASA: Feedback-Aware Sampling Adaptation for Efficient Diffusion-Based VLA Model](https://arxiv.org/pdf/2609.19475)，Yuchen Han, Jianhan Wu, Xiaoyang Qu, **Lingwei Kong**, Shiyi Li, Jianzong Wang. **NAS 2025**. (CCF-C)
 
-1. [Publicly Verifiable Private Information Retrieval Protocols Based on Function Secret Sharing](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Lin Zhu，**Lingwei Kong**，Xin Ning，Xiaoyang Qu，Jianzong Wang. **Inscrypt 2025**. (CCF-C)（共同第一作者）
+1. [Publicly Verifiable Private Information Retrieval Protocols Based on Function Secret Sharing](https://link.springer.com/chapter/10.1007/978-981-95-6209-1_4)，Lin Zhu，**Lingwei Kong**，Xin Ning，Xiaoyang Qu，Jianzong Wang. **Inscrypt 2025**. (CCF-C)（共同第一作者）
 
-1. [Personalized Federated Learning via Gradient Modulation for Heterogeneous Text Summarization](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Rongfeng Pan，Jianzong Wang，**Lingwei Kong**，Zhangcheng Huang，Jing Xiao. **IJCNN 2023**. (CCF-C)
+1. [Personalized Federated Learning via Gradient Modulation for Heterogeneous Text Summarization](https://ieeexplore.ieee.org/document/10191401)，Rongfeng Pan，Jianzong Wang，**Lingwei Kong**，Zhangcheng Huang，Jing Xiao. **IJCNN 2023**. (CCF-C)
 
-1. [Supervised Contrastive Meta-learning for Few-Shot Classification](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Chuanyao Zhang，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Xiaoyang Qu，Ning Cheng，Jing Xiao. **HPCC 2022**. (CCF-C)
+1. [Supervised Contrastive Meta-learning for Few-Shot Classification](https://ieeexplore.ieee.org/abstract/document/10074835)，Chuanyao Zhang，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Xiaoyang Qu，Ning Cheng，Jing Xiao. **HPCC 2022**. (CCF-C)
 
-1. [Blur the Linguistic Boundary: Interpreting Chinese Buddhist Sutra in English via Neural Machine Translation](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Denghao Li，Yuqiao Zeng，Jianzong Wang，**Lingwei Kong**，Zhangcheng Huang，Ning Cheng，Xiaoyang Qu，Jing Xiao. **ICTAI 2022**. (CCF-C)（通讯作者）
+1. [Blur the Linguistic Boundary: Interpreting Chinese Buddhist Sutra in English via Neural Machine Translation](https://ieeexplore.ieee.org/document/10097910)，Denghao Li，Yuqiao Zeng，Jianzong Wang，**Lingwei Kong**，Zhangcheng Huang，Ning Cheng，Xiaoyang Qu，Jing Xiao. **ICTAI 2022**. (CCF-C)（通讯作者）
 
-1. [A Nearest Neighbor Under-sampling Strategy for Vertical Federated Learning in Financial Domain](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Denghao Li，Jianzong Wang，**Lingwei Kong**，Shijing Si，Zhangcheng Huang，Chenyu Huang，Jing Xiao. **IH&MMSec 2022**. (CCF-C)
+1. [A Nearest Neighbor Under-sampling Strategy for Vertical Federated Learning in Financial Domain](https://dl.acm.org/doi/10.1145/3531536.3532960)，Denghao Li，Jianzong Wang，**Lingwei Kong**，Shijing Si，Zhangcheng Huang，Chenyu Huang，Jing Xiao. **IH&MMSec 2022**. (CCF-C)
 
-1. [A Competition of Shape and Texture Bias by Multi-view Image Representation](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，**Lingwei Kong**，Jianzong Wang，Zhangcheng Huang，Jing Xiao. **PRCV 2021**.（第一作者）
+1. [A Competition of Shape and Texture Bias by Multi-view Image Representation](https://dl.acm.org/doi/abs/10.1007/978-3-030-88013-2_12)，**Lingwei Kong**，Jianzong Wang，Zhangcheng Huang，Jing Xiao. **PRCV 2021**.（第一作者）
 
-1. [GraphPB: Graphical Representations of Prosody Boundary in Speech Synthesis](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Aolan Sun，Jianzong Wang，Ning Cheng，Huayi Peng，Zhen Zeng，**Lingwei Kong**，Jing Xiao. **SLT 2021**. (CCF-C)
+1. [GraphPB: Graphical Representations of Prosody Boundary in Speech Synthesis](https://ieeexplore.ieee.org/document/9383530)，Aolan Sun，Jianzong Wang，Ning Cheng，Huayi Peng，Zhen Zeng，**Lingwei Kong**，Jing Xiao. **SLT 2021**. (CCF-C)
 
-1. [Modeling Without Sharing Privacy: Federated Neural Machine Translation](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Denghao Li，Jing Xiao. **WISE 2021**. (CCF-B)（通讯作者）
+1. [Modeling Without Sharing Privacy: Federated Neural Machine Translation](https://link.springer.com/chapter/10.1007/978-3-030-90888-1_18)，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Denghao Li，Jing Xiao. **WISE 2021**. (CCF-B)（通讯作者）
 
-1. [Network Coding for Federated Learning Systems](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，**Lingwei Kong**，Hengtao Tao，Jianzong Wang，Zhangcheng Huang，Jing Xiao. **ICONIP 2020**. (CCF-C)（第一作者）
+1. [Network Coding for Federated Learning Systems](https://link.springer.com/chapter/10.1007/978-3-030-63833-7_46)，**Lingwei Kong**，Hengtao Tao，Jianzong Wang，Zhangcheng Huang，Jing Xiao. **ICONIP 2020**. (CCF-C)（第一作者）
 
-1. [Performance of Training Sparse Deep Neural Networks on GPUs](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Jing Xiao，Pengyu Wang，Lu Zhang，Chao Li. **HPEC 2019**.
+1. [Performance of Training Sparse Deep Neural Networks on GPUs](https://ieeexplore.ieee.org/document/8916506)，Jianzong Wang，Zhangcheng Huang，**Lingwei Kong**，Jing Xiao，Pengyu Wang，Lu Zhang，Chao Li. **HPEC 2019**.
 
-1. [A Federated Learning Schema with Additive Homomorphic Encryption](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，**Lingwei Kong**，Jianzong Wang，Zhangcheng Huang，Anxun He，Linjie Chen，Man Zhang，Jing Xiao. **FL-IJCAI 2019**, IJCAI Workshop.（第一作者）
+1. [A Federated Learning Schema with Additive Homomorphic Encryption](https://federated-learning.org/fl-ijcai-2019)，**Lingwei Kong**，Jianzong Wang，Zhangcheng Huang，Anxun He，Linjie Chen，Man Zhang，Jing Xiao. **FL-IJCAI 2019**, IJCAI Workshop.（第一作者）
 
-1. [Two Proposed Vehicle Insurance Pricing Frameworks Based on Federated Machine Learning](https://scholar.google.com/citations?user=2nM_30EAAAAJ&hl=zh-CN)，Anxun He，Jianzong Wang，Zhangcheng Huang，Linjie Chen，**Lingwei Kong**，Man Zhang，Mei Han，Ruei-Sung Lin，Jing Xiao. **SDBD 2019**, KDD Workshop.
+1. [Two Proposed Vehicle Insurance Pricing Frameworks Based on Federated Machine Learning](https://sites.google.com/view/sdbd2019/home)，Anxun He，Jianzong Wang，Zhangcheng Huang，Linjie Chen，**Lingwei Kong**，Man Zhang，Mei Han，Ruei-Sung Lin，Jing Xiao. **SDBD 2019**, KDD Workshop.
 {: reversed=""}
 
 ## 📚 综述论文
 
 1. [时间锁谜题综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，朱琳，**孔令炜**，吴建汉等. **网络与信息安全学报 (CCF-T2)，2026**.
 
-1. [联邦学习的公平性研究综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，朱智韬，司世景，王健宗，程宁，**孔令炜**，黄章成，肖京. **大数据 (CCF-T2)，2024**.
+1. [联邦学习的公平性研究综述](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2022088) [J]，朱智韬，司世景，王健宗，程宁，**孔令炜**，黄章成，肖京. **大数据 (CCF-T2)，2024**.
 
-1. [图神经网络综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，王健宗，**孔令炜**，黄章成等. **计算机工程 (CCF-T2，北大核心)，2021**.（通讯作者）
+1. [图神经网络综述](https://www.ecice06.com/CN/10.19678/j.issn.1000-3428.0058382) [J]，王健宗，**孔令炜**，黄章成等. **计算机工程 (CCF-T2，北大核心)，2021**.（通讯作者）
 
-1. [联邦学习隐私保护研究进展](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，王健宗，**孔令炜**，黄章成等. **大数据 (CCF-T2)，2021**.（通讯作者）
+1. [联邦学习隐私保护研究进展](https://www.j-bigdataresearch.com.cn/thesisDetails#10.11959/j.issn.2096-0271.2021030&lang=zh) [J]，王健宗，**孔令炜**，黄章成等. **大数据 (CCF-T2)，2021**.（通讯作者）
 
-1. [联邦学习算法综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，王健宗，**孔令炜**，黄章成等. **大数据 (CCF-T2)，2021**.（通讯作者）
+1. [联邦学习算法综述](https://www.j-bigdataresearch.com.cn/thesisDetails#10.11959/j.issn.2096-0271.2020055&lang=zh) [J]，王健宗，**孔令炜**，黄章成等. **大数据 (CCF-T2)，2021**.（通讯作者）
 {: reversed=""}
 
 ## 💡 授权专利
