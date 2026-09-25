@@ -1,0 +1,24 @@
+{% comment %}
+  侧栏访客地图（MapMyVisitors）。配置见 _config.yml 的 mapmyvisitors 节，
+  样式见 _sass/_sidebar.scss 的 .visitor-stats。
+  widget 由脚本插到 script 标签之后、h3 之前，故页面顺序为「地图 → 标题」。
+{% endcomment %}
+{% if site.mapmyvisitors and site.mapmyvisitors.token %}
+  {% assign mmv = site.mapmyvisitors %}
+  <div class="visitor-stats">
+    <div class="visitor-stats__globe">
+      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ mmv.token }}{% if mmv.params %}&{{ mmv.params }}{% endif %}"></script>
+      <h3>
+        {%- if page.lang == 'zh' %}访客地图{%- else %}Visitor Map{%- endif -%}
+      </h3>
+    </div>
+
+    {% if mmv.stats_page %}
+      <p class="visitor-stats__stats">
+        <a href="{{ mmv.stats_page }}" target="_blank" rel="noopener">
+          {%- if page.lang == 'zh' %}每周 · 每月 · 每年 · 累计访问统计 →{%- else %}Weekly · Monthly · Yearly · All-time stats →{%- endif -%}
+        </a>
+      </p>
+    {% endif %}
+  </div>
+{% endif %}

@@ -17,6 +17,14 @@ google_site_verification :  # get google_site_verification from https://search.g
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
+# Visitor Stats（侧栏访客地图，模板见 _includes/visitor-stats.html）
+# token 留空则模块不渲染；params 为官方 embed 代码里除 d= 外的其余参数（不带开头 &）；
+# stats_page 为公开统计页 URL，留空则只显示地图。
+mapmyvisitors:
+  token: "CHZSftKH_JVPexI39_1fct_K4XympzRsG04YCdVDLF8"
+  params: "cl=ffbf64&w=a&t=tt&co=fff8f5&ct=636363&cmo=ff8836&cmn=60d860"
+  stats_page:
+
 # Site Author
 author:
   name             : "Lingwei KONG (Mark)"
