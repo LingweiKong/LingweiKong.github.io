@@ -48,7 +48,7 @@ He has published nearly 20 papers at top international conferences and journals 
 
 ## 📚 Survey Papers
 
-1. [Survey on Time-Lock Puzzles](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J], Lin Zhu, **Lingwei Kong**, Jianhan Wu, et al. **Chinese Journal of Network and Information Security (CCF-T1), 2026**.
+1. [Survey on Time-Lock Puzzles](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J], Lin Zhu, **Lingwei Kong**, Jianhan Wu, et al. **Chinese Journal of Network and Information Security (CCF-T2), 2026**.
 
 1. [A Survey on the Fairness of Federated Learning](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J], Zhitao Zhu, Shijing Si, Jianzong Wang, Ning Cheng, **Lingwei Kong**, Zhangcheng Huang, Jing Xiao. **Big Data Research (CCF-T2), 2024**.
 

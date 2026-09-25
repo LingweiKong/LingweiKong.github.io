@@ -48,7 +48,7 @@ redirect_from:
 
 ## 📚 综述论文
 
-1. [时间锁谜题综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，朱琳，**孔令炜**，吴建汉等. **网络与信息安全学报 (CCF-T1)，2026**.
+1. [时间锁谜题综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，朱琳，**孔令炜**，吴建汉等. **网络与信息安全学报 (CCF-T2)，2026**.
 
 1. [联邦学习的公平性研究综述](https://au.cnki.net/author/personalInfo/000066981556?platform=kns-author) [J]，朱智韬，司世景，王健宗，程宁，**孔令炜**，黄章成，肖京. **大数据 (CCF-T2)，2024**.
 
