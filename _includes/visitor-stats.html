@@ -1,13 +1,40 @@
 {% comment %}
   侧栏访客地图（MapMyVisitors）。配置见 _config.yml 的 mapmyvisitors 节，
   样式见 _sass/_sidebar.scss 的 .visitor-stats。
-  widget 由脚本插到 script 标签之后、h3 之前，故页面顺序为「地图 → 标题」。
+  先用 no-cors fetch 预检（不阻塞渲染、无 CORS 限制），3 秒未连通则 abort——
+  真正中止网络请求而非仅移除标签；连通后才插入 script 标签（保留官方 embed 语义）。
+  widget 由脚本插到注入点之后、h3 之前，故页面顺序为「地图 → 标题」。
 {% endcomment %}
 {% if site.mapmyvisitors and site.mapmyvisitors.token %}
   {% assign mmv = site.mapmyvisitors %}
   <div class="visitor-stats">
     <div class="visitor-stats__globe">
-      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ mmv.token }}{% if mmv.params %}&{{ mmv.params }}{% endif %}"></script>
+      <script>
+        (function () {
+          var holder = document.currentScript.parentNode;
+          var anchor = document.currentScript;
+          var url = 'https://mapmyvisitors.com/map.js?d={{ mmv.token }}{% if mmv.params %}&{{ mmv.params }}{% endif %}';
+          function load() {
+            var s = document.createElement('script');
+            s.id = 'mapmyvisitors';
+            s.src = url;
+            holder.insertBefore(s, anchor);
+          }
+          /* 无 fetch/AbortController 时退化为普通异步加载（现代浏览器不会走到） */
+          if (!window.fetch || !window.AbortController) { load(); return; }
+          var ctrl = new AbortController();
+          var timer = setTimeout(function () { ctrl.abort(); }, 3000);
+          fetch(url, { mode: 'no-cors', signal: ctrl.signal })
+            .then(function () {
+              clearTimeout(timer);
+              load();
+            })
+            .catch(function () {
+              clearTimeout(timer);
+              holder.style.display = 'none';
+            });
+        })();
+      </script>
       <h3>
         {%- if page.lang == 'zh' %}访客地图{%- else %}Visitor Map{%- endif -%}
       </h3>
